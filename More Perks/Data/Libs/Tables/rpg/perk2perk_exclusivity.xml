@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+    <table name="perk2perk_exclusivity" version="1">
+        <header>
+            <column name="first_perk_id" type="uuid" />
+            <column name="second_perk_id" type="uuid" />
+        </header>
+        <rows>
+            <!-- Highborn II - Bard/Knight Errant -->
+            <row first_perk_id="2366a77c-540c-42fc-8ef5-c96a120b1969" second_perk_id="9a3d02e0-ce39-4c61-ac89-7bd906f1dd03" />
+
+            <!-- Lowborn II - Rogue/Ruffian -->
+            <row first_perk_id="9dc8588e-ffc8-4f77-ad2d-0fd5eb939561" second_perk_id="7f8c781b-142d-4bca-a9ab-2ba11dc9dfd6" />
+
+            <!-- Fast Striker / Heavy Swing -->
+            <row first_perk_id="010b08c7-5346-402c-a7cb-a084d624b62e" second_perk_id="4b54447c-d283-4338-b433-6153969612fc" />
+        </rows>
+    </table>
+</database>

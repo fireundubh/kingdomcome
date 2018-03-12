@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+    <table name="perk"
+           version="1">
+        <header>
+            <column name="icon_id"
+                    type="character varying" />
+            <column name="level"
+                    type="integer" />
+            <column name="metaperk_id"
+                    type="uuid" />
+            <column name="parent_id"
+                    type="uuid" />
+            <column name="perk_id"
+                    type="uuid" />
+            <column name="perk_name"
+                    type="character varying" />
+            <column name="perk_ui_desc"
+                    type="character varying" />
+            <column name="perk_ui_name"
+                    type="character varying" />
+            <column name="skill_selector"
+                    type="integer" />
+            <column name="stat_selector"
+                    type="integer" />
+            <column name="ui_priority"
+                    type="integer" />
+            <column name="visibility"
+                    type="integer" />
+        </header>
+        <rows>
+            <!-- ============================================================================================ -->
+            <!-- MAIN LEVEL PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- STATS ////////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <!-- ============================================================================================ -->
+            <!-- STRENGTH PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Clinch Master II -->
+            <row icon_id="clinch_master" level="12" metaperk_id="" parent_id="3e76fac9-cdff-4fbe-b3d2-85dd0ca26fc5" perk_id="ebb49c08-8792-40fd-ac15-1210aac60d88" perk_name="Clinch master 2" perk_ui_desc="perk_clinch_master2_desc" perk_ui_name="perk_clinch_master2_name" skill_selector="" stat_selector="0" ui_priority="0" visibility="2" />
+
+            <!-- Headcracker II -->
+            <row icon_id="headcrakcer" level="12" metaperk_id="" parent_id="ff42b2ac-184d-44f7-b6a2-7a9b8ae87c45" perk_id="a9dce193-4a21-4874-9995-cf89d8d77e05" perk_name="Headcracker2" perk_ui_desc="perk_headcrakcer2_desc" perk_ui_name="perk_headcrakcer2_name" skill_selector="" stat_selector="0" ui_priority="0" visibility="2" />
+
+            <!-- Headcracker III -->
+            <row icon_id="headcrakcer" level="16" metaperk_id="" parent_id="a9dce193-4a21-4874-9995-cf89d8d77e05" perk_id="6a29492e-34e2-4d0a-a66b-85997ed6515a" perk_name="Headcracker3" perk_ui_desc="perk_headcrakcer3_desc" perk_ui_name="perk_headcrakcer3_name" skill_selector="" stat_selector="0" ui_priority="0" visibility="2" />
+
+            <!-- Heavy Swing II -->
+            <row icon_id="heavy_swing" level="12" metaperk_id="" parent_id="4b54447c-d283-4338-b433-6153969612fc" perk_id="8f7c618d-9b6e-4be8-95d4-72e3588ac452" perk_name="Heavy swing 2" perk_ui_desc="perk_heavy_swing2_desc" perk_ui_name="perk_heavy_swing2_name" skill_selector="" stat_selector="0" ui_priority="0" visibility="2" />
+
+            <!-- Heavy Swing III -->
+            <row icon_id="heavy_swing" level="16" metaperk_id="" parent_id="8f7c618d-9b6e-4be8-95d4-72e3588ac452" perk_id="49528c27-f4c1-4461-986d-cedeaccac029" perk_name="Heavy swing 3" perk_ui_desc="perk_heavy_swing3_desc" perk_ui_name="perk_heavy_swing3_name" skill_selector="" stat_selector="0" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- AGILITY PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Fast Striker II -->
+            <row icon_id="fast_striker" level="12" metaperk_id="" parent_id="97aac44f-2789-4030-8438-a8421c7ae5e2" perk_id="32002d32-190f-4f99-a6ff-3b440543347c" perk_name="Fast striker 2" perk_ui_desc="perk_fast_striker2_desc" perk_ui_name="perk_fast_striker2_name" skill_selector="" stat_selector="1" ui_priority="0" visibility="2" />
+
+            <!-- Fast Striker III -->
+            <row icon_id="fast_striker" level="18" metaperk_id="" parent_id="32002d32-190f-4f99-a6ff-3b440543347c" perk_id="aa72e8ce-ad8f-4202-b61a-4bed12c4259b" perk_name="Fast striker 3" perk_ui_desc="perk_fast_striker3_desc" perk_ui_name="perk_fast_striker3_name" skill_selector="" stat_selector="1" ui_priority="0" visibility="2" />
+
+            <!-- Featherweight II -->
+            <row icon_id="like_a_feather" level="8" metaperk_id="" parent_id="010b08c7-5346-402c-a7cb-a084d624b62e" perk_id="a1cc42b3-270d-42b7-866c-9c204759a1a1" perk_name="Like a feather 2" perk_ui_desc="perk_like_a_feather2_desc" perk_ui_name="perk_like_a_feather2_name" skill_selector="" stat_selector="1" ui_priority="0" visibility="2" />
+
+            <!-- Featherweight III -->
+            <row icon_id="like_a_feather" level="16" metaperk_id="" parent_id="a1cc42b3-270d-42b7-866c-9c204759a1a1" perk_id="c74c28a1-a224-4054-b92c-6c77a8c39a77" perk_name="Like a feather 3" perk_ui_desc="perk_like_a_feather3_desc" perk_ui_name="perk_like_a_feather3_name" skill_selector="" stat_selector="1" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- VITALITY PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Revenant II -->
+            <row icon_id="revenant" level="16" metaperk_id="" parent_id="170757df-5808-4ca4-b710-f646a823ed13" perk_id="f496c6ff-0ab8-4a2c-b8bd-3ed4f8555afb" perk_name="Revenant2" perk_ui_desc="perk_revenant2_desc" perk_ui_name="perk_revenant2_name" skill_selector="" stat_selector="2" ui_priority="0" visibility="2" />
+
+            <!-- Revenant III -->
+            <row icon_id="revenant" level="20" metaperk_id="" parent_id="f496c6ff-0ab8-4a2c-b8bd-3ed4f8555afb" perk_id="236367a7-bc03-495c-80a9-2a6d59b7c72c" perk_name="Revenant3" perk_ui_desc="perk_revenant3_desc" perk_ui_name="perk_revenant3_name" skill_selector="" stat_selector="2" ui_priority="0" visibility="2" />
+
+            <!-- Sprinter II -->
+            <row icon_id="sprinter" level="6" metaperk_id="" parent_id="c84a0e84-d342-4635-a3e0-acb915888582" perk_id="50df2711-d1a4-45ad-84c2-ab563ea032c4" perk_name="Sprinter2" perk_ui_desc="perk_sprinter2_desc" perk_ui_name="perk_sprinter2_name" skill_selector="" stat_selector="2" ui_priority="0" visibility="2" />
+
+            <!-- Sprinter III -->
+            <row icon_id="sprinter" level="9" metaperk_id="" parent_id="50df2711-d1a4-45ad-84c2-ab563ea032c4" perk_id="e9904b07-d1e2-4c27-aaa4-2f62d200de89" perk_name="Sprinter3" perk_ui_desc="perk_sprinter3_desc" perk_ui_name="perk_sprinter3_name" skill_selector="" stat_selector="2" ui_priority="0" visibility="2" />
+
+            <!-- Thickblooded II -->
+            <row icon_id="thickblooded" level="12" metaperk_id="" parent_id="c85ac0b2-c7b9-49d1-9c82-267d8127fd33" perk_id="a2609177-1e33-45e2-859c-ccf8e744f2e0" perk_name="Thickblooded2" perk_ui_desc="perk_thickblooded2_desc" perk_ui_name="perk_thickblooded2_name" skill_selector="" stat_selector="2" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- SPEECH PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Highborn II - Bard -->
+            <row icon_id="highborn" level="8" metaperk_id="" parent_id="f19f542a-979a-4627-8d1c-9038f7dfc7be" perk_id="2366a77c-540c-42fc-8ef5-c96a120b1969" perk_name="bard" perk_ui_desc="perk_bard_desc" perk_ui_name="perk_bard_name" skill_selector="" stat_selector="3" ui_priority="0" visibility="2" />
+
+            <!-- Highborn II - Knight Errant -->
+            <row icon_id="highborn" level="8" metaperk_id="" parent_id="f19f542a-979a-4627-8d1c-9038f7dfc7be" perk_id="9a3d02e0-ce39-4c61-ac89-7bd906f1dd03" perk_name="knighterrant" perk_ui_desc="perk_knighterrant_desc" perk_ui_name="perk_knighterrant_name" skill_selector="" stat_selector="3" ui_priority="0" visibility="2" />
+
+            <!-- Lowborn II - Rogue -->
+            <row icon_id="lowborn" level="8" metaperk_id="" parent_id="84c272a9-d81f-4e7b-bee9-0142bdb7a116" perk_id="9dc8588e-ffc8-4f77-ad2d-0fd5eb939561" perk_name="rogue" perk_ui_desc="perk_rogue_desc" perk_ui_name="perk_rogue_name" skill_selector="" stat_selector="3" ui_priority="0" visibility="2" />
+
+            <!-- Lowborn II - Ruffian -->
+            <row icon_id="lowborn" level="8" metaperk_id="" parent_id="84c272a9-d81f-4e7b-bee9-0142bdb7a116" perk_id="7f8c781b-142d-4bca-a9ab-2ba11dc9dfd6" perk_name="ruffian" perk_ui_desc="perk_ruffian_desc" perk_ui_name="perk_ruffian_name" skill_selector="" stat_selector="3" ui_priority="0" visibility="2" />
+
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- SKILLS ///////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <!-- ============================================================================================ -->
+            <!-- ALCHEMY PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Venomous Blade II -->
+            <row icon_id="venomous_blade" level="10" metaperk_id="" parent_id="6b3f9cde-eb05-4072-9875-0853c85dc4a6" perk_id="23c0d750-d817-456a-b759-882b1abd3c4c" perk_name="Venomous blade 2" perk_ui_desc="perk_venomous_blade2_desc" perk_ui_name="perk_venomous_blade2_name" skill_selector="6" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- DRINKING PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- ============================================================================================ -->
+            <!-- HERBALISM PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- ============================================================================================ -->
+            <!-- HORSEMANSHIP PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- ============================================================================================ -->
+            <!-- HUNTING PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- ============================================================================================ -->
+            <!-- LOCKPICKING PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Master Thief I (Adept Thief) -->
+            <row icon_id="master_thief" level="12" metaperk_id="" parent_id="" perk_id="0e31656e-9b9d-4f54-979a-48848eb0810b" perk_name="Master thief" perk_ui_desc="perk_master_thief_desc" perk_ui_name="perk_master_thief_name" skill_selector="4" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Master Thief II (Expert Thief) -->
+            <row icon_id="master_thief" level="16" metaperk_id="" parent_id="0e31656e-9b9d-4f54-979a-48848eb0810b" perk_id="7f9ce037-07ba-46fd-9830-84b7b36d211d" perk_name="Master thief2" perk_ui_desc="perk_master_thief2_desc" perk_ui_name="perk_master_thief2_name" skill_selector="4" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Master Thief III (Master Thief) -->
+            <row icon_id="master_thief" level="20" metaperk_id="" parent_id="7f9ce037-07ba-46fd-9830-84b7b36d211d" perk_id="2ddf8dc1-b8c9-4227-a762-a7e510f51f50" perk_name="Master thief3" perk_ui_desc="perk_master_thief3_desc" perk_ui_name="perk_master_thief3_name" skill_selector="4" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- MAINTENANCE PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- ============================================================================================ -->
+            <!-- PICKPOCKETING PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Secret Pockets II -->
+            <row icon_id="secret_pockets" level="6" metaperk_id="" parent_id="" perk_id="ba5dba42-fdcd-4e88-bb63-75f786bf65db" perk_name="Shakedown2" perk_ui_desc="perk_secret_pockets2_desc" perk_ui_name="perk_secret_pockets2_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Secret Pockets III -->
+            <row icon_id="secret_pockets" level="10" metaperk_id="" parent_id="" perk_id="79de4dbe-b64a-4419-9d08-144baa9c7c24" perk_name="Shakedown3" perk_ui_desc="perk_secret_pockets3_desc" perk_ui_name="perk_secret_pockets3_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- READING PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Anatomist -->
+            <row icon_id="huntsman" level="7" metaperk_id="" parent_id="" perk_id="ee91f8a0-6fcf-4481-ae33-2429cba67d53" perk_name="Anatomist" perk_ui_desc="perk_anatomist_desc" perk_ui_name="perk_anatomist_name" skill_selector="26" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Tactician -->
+            <row icon_id="heavy_swing" level="7" metaperk_id="" parent_id="" perk_id="c7e05890-369a-4d0f-a95b-8cf581096a0d" perk_name="Tactician" perk_ui_desc="perk_tactician_desc" perk_ui_name="perk_tactician_name" skill_selector="26" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- STEALTH PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Slim Fit II -->
+            <row icon_id="slim_fit" level="12" metaperk_id="" parent_id="" perk_id="ea1f9b4c-9dea-41ab-9fda-77ec78ec432a" perk_name="Slim fit 2" perk_ui_desc="perk_slim_fit2_desc" perk_ui_name="perk_slim_fit2_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Slim Fit III -->
+            <row icon_id="slim_fit" level="16" metaperk_id="" parent_id="" perk_id="49a99024-8899-4ee4-b95d-700fe3d4d57b" perk_name="Slim fit 3" perk_ui_desc="perk_slim_fit3_desc" perk_ui_name="perk_slim_fit3_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- COMBAT ///////////////////////////////////////////////////////////////////////////////////// -->
+            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <!-- ============================================================================================ -->
+            <!-- DEFENCE PERKS -->
+            <!-- ============================================================================================ -->
+
+            <row icon_id="firm_hand" level="8" metaperk_id="" parent_id="" perk_id="03359da9-f967-4ec5-aa95-6e7c4f1ef3ff" perk_name="Firm hand 2" perk_ui_desc="perk_film_grip2_desc" perk_ui_name="perk_film_grip2_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
+
+            <row icon_id="firm_hand" level="12" metaperk_id="" parent_id="" perk_id="787dac0b-6de9-4419-9ad2-86cca9ef155d" perk_name="Firm hand 3" perk_ui_desc="perk_film_grip3_desc" perk_ui_name="perk_film_grip3_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- ============================================================================================ -->
+            <!-- WARFARE PERKS -->
+            <!-- ============================================================================================ -->
+
+            <!-- Bloodletter II -->
+            <row icon_id="bloodletter" level="8" metaperk_id="" parent_id="" perk_id="0f6cc37c-3ff8-4f73-9a09-ca082a0d930f" perk_name="Bloodletter 2" perk_ui_desc="perk_bloodletter2_desc" perk_ui_name="perk_bloodletter2_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
+
+            <!-- Bloodletter III -->
+            <row icon_id="bloodletter" level="12" metaperk_id="" parent_id="" perk_id="2cfb582f-f368-4ce2-8e28-feb36c73c1a8" perk_name="Bloodletter 3" perk_ui_desc="perk_bloodletter3_desc" perk_ui_name="perk_bloodletter3_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
+        </rows>
+    </table>
+</database>

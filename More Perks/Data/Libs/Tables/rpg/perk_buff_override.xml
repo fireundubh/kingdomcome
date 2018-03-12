@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database name="hammerheart">
+    <table name="perk_buff_override" version="1">
+        <header>
+            <column name="perk_id" type="uuid" />
+            <column name="source_buff_id" type="uuid" />
+            <column name="target_buff_id" type="uuid" />
+        </header>
+        <rows>
+            <!-- Thickblooded II -->
+            <row perk_id="a2609177-1e33-45e2-859c-ccf8e744f2e0" source_buff_id="0c903899-fcc9-4cf2-9ee3-1130ac08b0fc" target_buff_id="81c91cdd-3294-4958-b27e-e076ca8c8692" />
+        </rows>
+    </table>
+</database>
