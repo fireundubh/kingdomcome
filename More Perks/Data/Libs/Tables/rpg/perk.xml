@@ -156,10 +156,10 @@
             <!-- ============================================================================================ -->
 
             <!-- Secret Pockets II -->
-            <row icon_id="secret_pockets" level="6" metaperk_id="" parent_id="" perk_id="ba5dba42-fdcd-4e88-bb63-75f786bf65db" perk_name="Shakedown2" perk_ui_desc="perk_secret_pockets2_desc" perk_ui_name="perk_secret_pockets2_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="secret_pockets" level="6" metaperk_id="" parent_id="4dcedbb3-7173-4e28-bf9e-51bd9249fc85" perk_id="ba5dba42-fdcd-4e88-bb63-75f786bf65db" perk_name="Shakedown2" perk_ui_desc="perk_secret_pockets2_desc" perk_ui_name="perk_secret_pockets2_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- Secret Pockets III -->
-            <row icon_id="secret_pockets" level="10" metaperk_id="" parent_id="" perk_id="79de4dbe-b64a-4419-9d08-144baa9c7c24" perk_name="Shakedown3" perk_ui_desc="perk_secret_pockets3_desc" perk_ui_name="perk_secret_pockets3_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="secret_pockets" level="10" metaperk_id="" parent_id="ba5dba42-fdcd-4e88-bb63-75f786bf65db" perk_id="79de4dbe-b64a-4419-9d08-144baa9c7c24" perk_name="Shakedown3" perk_ui_desc="perk_secret_pockets3_desc" perk_ui_name="perk_secret_pockets3_name" skill_selector="5" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- ============================================================================================ -->
             <!-- READING PERKS -->
@@ -176,10 +176,10 @@
             <!-- ============================================================================================ -->
 
             <!-- Slim Fit II -->
-            <row icon_id="slim_fit" level="12" metaperk_id="" parent_id="" perk_id="ea1f9b4c-9dea-41ab-9fda-77ec78ec432a" perk_name="Slim fit 2" perk_ui_desc="perk_slim_fit2_desc" perk_ui_name="perk_slim_fit2_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="slim_fit" level="12" metaperk_id="" parent_id="e722730d-daec-47c4-a504-9c3a0453b2fa" perk_id="ea1f9b4c-9dea-41ab-9fda-77ec78ec432a" perk_name="Slim fit 2" perk_ui_desc="perk_slim_fit2_desc" perk_ui_name="perk_slim_fit2_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- Slim Fit III -->
-            <row icon_id="slim_fit" level="16" metaperk_id="" parent_id="" perk_id="49a99024-8899-4ee4-b95d-700fe3d4d57b" perk_name="Slim fit 3" perk_ui_desc="perk_slim_fit3_desc" perk_ui_name="perk_slim_fit3_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="slim_fit" level="16" metaperk_id="" parent_id="ea1f9b4c-9dea-41ab-9fda-77ec78ec432a" perk_id="49a99024-8899-4ee4-b95d-700fe3d4d57b" perk_name="Slim fit 3" perk_ui_desc="perk_slim_fit3_desc" perk_ui_name="perk_slim_fit3_name" skill_selector="0" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
             <!-- COMBAT ///////////////////////////////////////////////////////////////////////////////////// -->
@@ -189,19 +189,19 @@
             <!-- DEFENCE PERKS -->
             <!-- ============================================================================================ -->
 
-            <row icon_id="firm_hand" level="8" metaperk_id="" parent_id="" perk_id="03359da9-f967-4ec5-aa95-6e7c4f1ef3ff" perk_name="Firm hand 2" perk_ui_desc="perk_film_grip2_desc" perk_ui_name="perk_film_grip2_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="firm_hand" level="8" metaperk_id="" parent_id="d17df55d-3ff2-45e6-9c4f-a9dc0f83a830" perk_id="03359da9-f967-4ec5-aa95-6e7c4f1ef3ff" perk_name="Firm hand 2" perk_ui_desc="perk_film_grip2_desc" perk_ui_name="perk_film_grip2_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
 
-            <row icon_id="firm_hand" level="12" metaperk_id="" parent_id="" perk_id="787dac0b-6de9-4419-9ad2-86cca9ef155d" perk_name="Firm hand 3" perk_ui_desc="perk_film_grip3_desc" perk_ui_name="perk_film_grip3_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="firm_hand" level="12" metaperk_id="" parent_id="03359da9-f967-4ec5-aa95-6e7c4f1ef3ff" perk_id="787dac0b-6de9-4419-9ad2-86cca9ef155d" perk_name="Firm hand 3" perk_ui_desc="perk_film_grip3_desc" perk_ui_name="perk_film_grip3_name" skill_selector="15" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- ============================================================================================ -->
             <!-- WARFARE PERKS -->
             <!-- ============================================================================================ -->
 
             <!-- Bloodletter II -->
-            <row icon_id="bloodletter" level="8" metaperk_id="" parent_id="" perk_id="0f6cc37c-3ff8-4f73-9a09-ca082a0d930f" perk_name="Bloodletter 2" perk_ui_desc="perk_bloodletter2_desc" perk_ui_name="perk_bloodletter2_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="bloodletter" level="8" metaperk_id="" parent_id="09873e0d-d1c1-4340-9dad-deb2605ac7a2" perk_id="0f6cc37c-3ff8-4f73-9a09-ca082a0d930f" perk_name="Bloodletter 2" perk_ui_desc="perk_bloodletter2_desc" perk_ui_name="perk_bloodletter2_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
 
             <!-- Bloodletter III -->
-            <row icon_id="bloodletter" level="12" metaperk_id="" parent_id="" perk_id="2cfb582f-f368-4ce2-8e28-feb36c73c1a8" perk_name="Bloodletter 3" perk_ui_desc="perk_bloodletter3_desc" perk_ui_name="perk_bloodletter3_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
+            <row icon_id="bloodletter" level="12" metaperk_id="" parent_id="0f6cc37c-3ff8-4f73-9a09-ca082a0d930f" perk_id="2cfb582f-f368-4ce2-8e28-feb36c73c1a8" perk_name="Bloodletter 3" perk_ui_desc="perk_bloodletter3_desc" perk_ui_name="perk_bloodletter3_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
         </rows>
     </table>
 </database>
