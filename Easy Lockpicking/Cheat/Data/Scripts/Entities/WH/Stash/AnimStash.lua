@@ -1,3 +1,5 @@
+Script.ReloadScript("Scripts/Script/EasyLockpicking.lua")
+
 Stash = {
 	Server = {},
 	Client = {},
@@ -55,7 +57,7 @@ Stash = {
 		Script = {
 			bTutorial = 0,
 			bLootIsLegal = 0,
-			Misc = '',
+			Misc = "",
 		},
 
 		bInteractableThroughCollision = 0,
@@ -356,7 +358,7 @@ function Stash:GetActions(user, firstFast)
 		return output
 	end
 
-	local hint = "@" .. CrimeUtils.BuildLockpickPromptStrName(self.Properties.Lock.fLockDifficulty)
+	local hint = "@" .. EasyLockpicking.BuildLockpickPromptStrName(self.Properties.Lock.fLockDifficulty)
 	AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):hintType(AHT_HOLD):enabled(actionEnabled):func(Stash.OnUsedHold):interaction(inr_stashLockpick))
 
 	return output
@@ -449,7 +451,7 @@ function Stash:OnUsed(user, slot)
 	self.bLocked = 0
 
 	if self.this ~= nil then
-		XGenAIModule.SendMessageToEntity(self.this.id, "tutorial:onOpenedWithKey", "Item(" .. self.Properties.Lock.guidItemClassId .. ")")
+		XGenAIModule.SendMessageToEntity(self.this.id, "tutorial:onOpenedWithKey", "Item('" .. self.Properties.Lock.guidItemClassId .. "')")
 	end
 
 	self:Open(user)
@@ -467,7 +469,7 @@ function Stash:OnUsedHold(user, slot)
 	end
 
 	if self.Properties.Lock.bCanLockPick == 1 and (self.bLocked or (self.bLocked == 1 or Framework.IsValidWUID(Shops.IsLinkedWithShop(self.id)))) then
-		CrimeUtils.TryToAutoUnlock(self, user)
+		EasyLockpicking.TryToAutoUnlock(self, user)
 	end
 end
 

@@ -1,4 +1,5 @@
-Script.ReloadScript("scripts/Entities/AI/Shared/AIBase.lua")
+Script.ReloadScript("Scripts/Entities/AI/Shared/AIBase.lua")
+Script.ReloadScript("Scripts/Script/EasyLockpicking.lua")
 
 AnimDoor = {
 	Server = {},
@@ -321,7 +322,7 @@ function AnimDoor:GetActions(user, firstFast)
 		return output
 	end
 
-	local hint = "@" .. CrimeUtils.BuildLockpickPromptStrName(self.Properties.Lock.fLockDifficulty)
+	local hint = "@" .. EasyLockpicking.BuildLockpickPromptStrName(self.Properties.Lock.fLockDifficulty)
 	AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):hintType(AHT_HOLD):func(AnimDoor.Lockpick):interaction(inr_doorLockpick))
 
 	return output
@@ -332,7 +333,7 @@ function AnimDoor:Lockpick(user, slot)
 		return
 	end
 
-	CrimeUtils.TryToAutoUnlock(self, user)
+	EasyLockpicking.TryToAutoUnlock(self, user)
 end
 
 function AnimDoor:OnUsed(user, slot)
@@ -639,9 +640,9 @@ function AnimDoor:ShouldBeClosed(isEntering)
 		return true
 	end
 
-	if self.Properties.esInteriorType == 'stash' then
+	if self.Properties.esInteriorType == "stash" then
 		return true
-	elseif self.Properties.esInteriorType == 'shop' then
+	elseif self.Properties.esInteriorType == "shop" then
 		return false
 	end
 
@@ -662,12 +663,12 @@ function AnimDoor:ShouldBeLocked(isEntering)
 
 	local perInstanceDoLock = (isEntering and self.shouldLockOverride_onEnter) or (not isEntering and self.shouldLockOverride_onExit)
 
-	if self.Properties.esInteriorType == 'home' then
+	if self.Properties.esInteriorType == "home" then
 		local timeToLock = not self:IsDaytime()
 		return (perInstanceDoLock or (timeToLock and isEntering)) and not self.unlockedDueExpected
-	elseif self.Properties.esInteriorType == 'stash' then
+	elseif self.Properties.esInteriorType == "stash" then
 		return not isEntering
-	elseif self.Properties.esInteriorType == 'shop' then
+	elseif self.Properties.esInteriorType == "shop" then
 		return self.lockedDueToPrivate
 	end
 
@@ -727,11 +728,11 @@ function AnimDoor:GenerateLockDifficulty()
 end
 
 function AnimDoor:GetInteriorType()
-	if self.Properties.esInteriorType == 'home' then
+	if self.Properties.esInteriorType == "home" then
 		return enum_interiorType.home
-	elseif self.Properties.esInteriorType == 'stash' then
+	elseif self.Properties.esInteriorType == "stash" then
 		return enum_interiorType.stash
-	elseif self.Properties.esInteriorType == 'shop' then
+	elseif self.Properties.esInteriorType == "shop" then
 		return enum_interiorType.shop
 	else
 		return enum_interiorType.undefined
