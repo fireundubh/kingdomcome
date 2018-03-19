@@ -1,4 +1,14 @@
 <Table>
+	<Row>
+        <Cell>perk_charlatan_desc</Cell>
+        <Cell>When you perform bad deeds, your reputation falls 20% slower.</Cell>
+        <Cell>When you perform bad deeds, your reputation falls 20% slower.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_charlatan_name</Cell>
+        <Cell>Charlatan</Cell>
+        <Cell>Charlatan</Cell>
+    </Row>
     <Row>
         <Cell>perk_clinch_master_desc</Cell>
         <Cell>You gain a 40% greater chance to overpower your opponent in a clinch.</Cell>
@@ -241,8 +251,8 @@
     </Row>
     <Row>
         <Cell>perk_revenant3_desc</Cell>
-        <Cell>Your health regenerates much faster. (0.375 health/s)</Cell>
-        <Cell>Your health regenerates much faster. (0.375 health/s)</Cell>
+        <Cell>Your health regenerates much faster. (0.5 health/s)</Cell>
+        <Cell>Your health regenerates much faster. (0.5 health/s)</Cell>
     </Row>
     <Row>
         <Cell>perk_revenant3_name</Cell>
@@ -321,8 +331,8 @@
     </Row>
     <Row>
         <Cell>perk_sprinter2_desc</Cell>
-        <Cell>Sprinting is 40% faster but costs 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
-        <Cell>Sprinting is 40% faster but costs 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+        <Cell>Sprinting is 50% faster but costs 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+        <Cell>Sprinting is 50% faster but costs 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
     </Row>
     <Row>
         <Cell>perk_sprinter2_name</Cell>
@@ -331,8 +341,8 @@
     </Row>
     <Row>
         <Cell>perk_sprinter3_desc</Cell>
-        <Cell>Sprinting is 60% faster but costs 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
-        <Cell>Sprinting is 60% faster but costs 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+        <Cell>Sprinting is 100% faster but costs 40% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+        <Cell>Sprinting is 100% faster but costs 40% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
     </Row>
     <Row>
         <Cell>perk_sprinter3_name</Cell>
@@ -591,8 +601,8 @@
     </Row>
     <Row>
         <Cell>perk_burgess_desc</Cell>
-        <Cell>In towns, villages, and their immediate vicinity, you have +1 Strength, Agility, Vitality and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
-        <Cell>In towns, villages, and their immediate vicinity, you have +1 Strength, Agility, Vitality and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
+        <Cell>In urban locales, you deal 10% more damage, sprint 10% faster, and, in conversations, you have +1 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
+        <Cell>In urban locales, you deal 10% more damage, sprint 10% faster, and, in conversations, you have +1 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
     </Row>
     <Row>
         <Cell>perk_burgess_name</Cell>
@@ -931,6 +941,16 @@
         <Cell>Gravedigger</Cell>
         <Cell>Gravedigger</Cell>
     </Row>
+	<Row>
+        <Cell>perk_guildsman_desc</Cell>
+        <Cell>You're a made guy. You recover from jail time 20% faster than your peers.</Cell>
+        <Cell>You're a made guy. You recover from jail time 20% faster than your peers.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_guildsman_name</Cell>
+        <Cell>Guildsman</Cell>
+        <Cell>Guildsman</Cell>
+    </Row>
     <Row>
         <Cell>perk_haggle_generic_desc</Cell>
         <Cell>You practice your Speech skill whenever you haggle.</Cell>
@@ -1048,8 +1068,8 @@
     </Row>
     <Row>
         <Cell>perk_infamous_desc</Cell>
-        <Cell>With a low Reputation in a given area, you gain +1 Strength, Speech, Agility and Vitality. But your Reputation rises much faster than usual and the penalties for serving jail time are less.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
-        <Cell>With a low Reputation in a given area, you gain +1 Strength, Speech, Agility and Vitality. But your Reputation rises much faster than usual and the penalties for serving jail time are less.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+        <Cell>With a low reputation, merchants cough up 20% more for your goods and you gain +1 Badassness in conversations, but your reputation rises twice as fast when you perform good deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+        <Cell>With a low reputation, merchants cough up 20% more for your goods and you gain +1 Badassness in conversations, but your reputation rises twice as fast when you perform good deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
     </Row>
     <Row>
         <Cell>perk_infamous_name</Cell>
@@ -1108,8 +1128,8 @@
     </Row>
     <Row>
         <Cell>perk_juggler_desc</Cell>
-        <Cell>You're exceptionally supple and agile, but turning somersaults and falling on your head left their mark. You gain +1 Agility, and -1 Speech and Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
-        <Cell>You're exceptionally supple and agile, but turning somersaults and falling on your head left their mark. You gain +1 Agility, and -1 Speech and Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You're exceptionally supple and agile, but turning somersaults and falling on your head left their mark. Dodging attacks is 10% easier, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You're exceptionally supple and agile, but turning somersaults and falling on your head left their mark. Dodging attacks is 10% easier, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
     </Row>
     <Row>
         <Cell>perk_juggler_name</Cell>
@@ -1118,8 +1138,8 @@
     </Row>
     <Row>
         <Cell>perk_ken_desc</Cell>
-        <Cell>You're handsome and charismatic, but you're not as strong. You gain +2 Charisma and -2 Strength.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
-        <Cell>You're handsome and charismatic, but you're not as strong. You gain +2 Charisma and -2 Strength.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You're handsome and charismatic, but you're not as strong. You gain +2 Charisma, but your Carrying Capacity is reduced by 25.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You're handsome and charismatic, but you're not as strong. You gain +2 Charisma, but your Carrying Capacity is reduced by 25.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
     </Row>
     <Row>
         <Cell>perk_ken_name</Cell>
@@ -1198,8 +1218,8 @@
     </Row>
     <Row>
         <Cell>perk_local_hero_desc</Cell>
-        <Cell>With a high Reputation in a given area, you gain +1 Strength, Speech, Agility and Vitality. But your Reputation falls faster than usual and the penalties for jail time are greater.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
-        <Cell>With a high Reputation in a given area, you gain +1 Strength, Speech, Agility and Vitality. But your Reputation falls faster than usual and the penalties for jail time are greater.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+        <Cell>With a high reputation, traders give you a 20% discount and you gain +1 Charisma in conversations, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+        <Cell>With a high reputation, traders give you a 20% discount and you gain +1 Charisma in conversations, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
     </Row>
     <Row>
         <Cell>perk_local_hero_name</Cell>
@@ -1377,6 +1397,16 @@
         <Cell>You can carry 25 more pounds.</Cell>
         <Cell>You can carry 25 more pounds.</Cell>
     </Row>
+	<Row>
+        <Cell>perk_mummer_desc</Cell>
+        <Cell>You know well the art of the disguise. You're less likely to be seen by those you'd rather not.</Cell>
+        <Cell>You know well the art of the disguise. You're less likely to be seen by those you'd rather not.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_mummer_name</Cell>
+        <Cell>Mummer</Cell>
+        <Cell>Mummer</Cell>
+    </Row>
     <Row>
         <Cell>perk_night_rider_desc</Cell>
         <Cell>Your Stamina regenerates 20% faster at night but 10% slower during the day.</Cell>
@@ -1416,6 +1446,16 @@
         <Cell>perk_perfect_block_name</Cell>
         <Cell>Perfect Block</Cell>
         <Cell>Perfect Block</Cell>
+    </Row>
+	<Row>
+        <Cell>perk_perfect_knight_desc</Cell>
+        <Cell>When you perform good deeds, your reputation rises 20% faster.</Cell>
+        <Cell>When you perform good deeds, your reputation rises 20% faster.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_perfect_knight_name</Cell>
+        <Cell>Perfect Knight</Cell>
+        <Cell>Perfect Knight</Cell>
     </Row>
     <Row>
         <Cell>perk_perfect_throw_desc</Cell>
@@ -1459,8 +1499,8 @@
     </Row>
     <Row>
         <Cell>perk_proper_diet_desc</Cell>
-        <Cell>If you don't overeat or go hungry for 5 consecutive days, you gain +1 Vitality and Agility.</Cell>
-        <Cell>If you don't overeat or go hungry for 5 consecutive days, you gain +1 Vitality and Agility.</Cell>
+        <Cell>When you don't overeat or starve for 5 consecutive days, you gain +20% Stamina and you can evade attacks 10% more easily.</Cell>
+        <Cell>When you don't overeat or starve for 5 consecutive days, you gain +20% Stamina and you can evade attacks 10% more easily.</Cell>
     </Row>
     <Row>
         <Cell>perk_proper_diet_name</Cell>
@@ -1615,8 +1655,8 @@
     </Row>
     <Row>
         <Cell>perk_savage_desc</Cell>
-        <Cell>In the wilds, you have +1 Strength, Agility, Vitality and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
-        <Cell>In the wilds, you have +1 Strength, Agility, Vitality and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
+        <Cell>In the wilds, you deal 10% more damage, sprint 10% faster, and, in conversations, you have +1 Badassness.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
+        <Cell>In the wilds, you deal 10% more damage, sprint 10% faster, and, in conversations, you have +1 Badassness.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
     </Row>
     <Row>
         <Cell>perk_savage_name</Cell>
@@ -1706,8 +1746,8 @@
     </Row>
     <Row>
         <Cell>perk_speech_desc</Cell>
-        <Cell>You've always favoured diplomacy over brute force. You gain +2 Speech, but -2 Strength.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
-        <Cell>You've always favoured diplomacy over brute force. You gain +2 Speech, but -2 Strength.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You've always favoured diplomacy over brute force. You gain +2 Charisma, but deal 10% less damage.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You've always favoured diplomacy over brute force. You gain +2 Charisma, but deal 10% less damage.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
     </Row>
     <Row>
         <Cell>perk_speech_name</Cell>
@@ -1732,8 +1772,8 @@
     </Row>
     <Row>
         <Cell>perk_stealth_desc</Cell>
-        <Cell>You prefer to remain in the shadows. You gain +2 Stealth, but -1 Strength and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
-        <Cell>You prefer to remain in the shadows. You gain +2 Stealth, but -1 Strength and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
+        <Cell>You're accustomed to hiding in the shadows, but all that time spent avoiding upfront and personal contact costs you -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
+        <Cell>You're accustomed to hiding in the shadows, but all that time spent avoiding upfront and personal contact costs you -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
     </Row>
     <Row>
         <Cell>perk_stealth_kill_desc</Cell>
@@ -1762,8 +1802,8 @@
     </Row>
     <Row>
         <Cell>perk_strength_desc</Cell>
-        <Cell>You favour brute strength to a pleasant demeanour. You gain +2 Strength, but -1 Charisma and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
-        <Cell>You favour brute strength to a pleasant demeanour. You gain +2 Strength, but -1 Charisma and Speech.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You favour brute strength to a pleasant demeanour. You deal 10% more damage, but lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You favour brute strength to a pleasant demeanour. You deal 10% more damage, but lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
     </Row>
     <Row>
         <Cell>perk_strength_name</Cell>
@@ -2154,8 +2194,18 @@
     </Row>
     <Row>
         <Cell>perk_witcher_name</Cell>
-        <Cell>Witcher</Cell>
-        <Cell>Witcher</Cell>
+        <Cell>Witcher I</Cell>
+        <Cell>Witcher I</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_witcher2_desc</Cell>
+        <Cell>Your witcher senses have evolved. When night falls, you see better in dark places.</Cell>
+        <Cell>Your witcher senses have evolved. When night falls, you see better in dark places.</Cell>
+    </Row>
+    <Row>
+        <Cell>perk_witcher2_name</Cell>
+        <Cell>Witcher II</Cell>
+        <Cell>Witcher II</Cell>
     </Row>
     <Row>
         <Cell>perk_your_friendly_neighbour_de</Cell>

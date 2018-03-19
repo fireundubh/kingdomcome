@@ -1,235 +1,293 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <database name="hammerheart">
-    <table name="buff"
-           version="1">
-        <header>
-            <column name="buff_ai_tag_id"
-                    type="integer" />
-            <column name="buff_class_id"
-                    type="integer" />
-            <column name="buff_desc"
-                    type="character varying" />
-            <column name="buff_exclusivity_id"
-                    type="integer" />
-            <column name="buff_id"
-                    type="uuid" />
-            <column name="buff_lifetime_id"
-                    type="integer" />
-            <column name="buff_name"
-                    type="character varying" />
-            <column name="buff_ui_name"
-                    type="character varying" />
-            <column name="buff_ui_order"
-                    type="integer" />
-            <column name="buff_ui_type_id"
-                    type="integer" />
-            <column name="buff_ui_visibility_id"
-                    type="integer" />
-            <column name="duration"
-                    type="real" />
-            <column name="icon_id"
-                    type="integer" />
-            <column name="implementation"
-                    type="character varying" />
-            <column name="is_persistent"
-                    type="boolean" />
-            <column name="params"
-                    type="character varying" />
-            <column name="slot_buff_ui_name"
-                    type="character varying" />
-            <column name="slot_icon_id"
-                    type="integer" />
-            <column name="visual_effect"
-                    type="character varying" />
-        </header>
-        <rows>
-            <!-- ============================================================================================ -->
-            <!-- MAIN LEVEL PERKS -->
-            <!-- ============================================================================================ -->
+	<table name="buff"
+		   version="1">
+		<header>
+			<column name="buff_ai_tag_id"
+					type="integer" />
+			<column name="buff_class_id"
+					type="integer" />
+			<column name="buff_desc"
+					type="character varying" />
+			<column name="buff_exclusivity_id"
+					type="integer" />
+			<column name="buff_id"
+					type="uuid" />
+			<column name="buff_lifetime_id"
+					type="integer" />
+			<column name="buff_name"
+					type="character varying" />
+			<column name="buff_ui_name"
+					type="character varying" />
+			<column name="buff_ui_order"
+					type="integer" />
+			<column name="buff_ui_type_id"
+					type="integer" />
+			<column name="buff_ui_visibility_id"
+					type="integer" />
+			<column name="duration"
+					type="real" />
+			<column name="icon_id"
+					type="integer" />
+			<column name="implementation"
+					type="character varying" />
+			<column name="is_persistent"
+					type="boolean" />
+			<column name="params"
+					type="character varying" />
+			<column name="slot_buff_ui_name"
+					type="character varying" />
+			<column name="slot_icon_id"
+					type="integer" />
+			<column name="visual_effect"
+					type="character varying" />
+		</header>
+		<rows>
+			<!-- ============================================================================================ -->
+			<!-- MAIN LEVEL PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- STATS ////////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- Brute -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_strength_desc" buff_exclusivity_id="1" buff_id="c1fb4838-2364-46c5-bdff-d2794dbf8328" buff_lifetime_id="0" buff_name="perk_general_strength" buff_ui_name="buff_general_strength" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="47" implementation="Cpp:Constant" is_persistent="True" params="wat*1.1,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- STRENGTH PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Cloak and Dagger -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_stealth_desc" buff_exclusivity_id="1" buff_id="a40ac764-94e7-43c8-a750-1e40b054e943" buff_lifetime_id="0" buff_name="perk_general_stealth" buff_ui_name="buff_general_stealth" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="48" implementation="Cpp:Constant" is_persistent="True" params="vib-10,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Clinch Master II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="1d9ee3f8-7cd8-4798-a03d-576b1bf8d30a" buff_lifetime_id="1" buff_name="perk_clinch_master2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="cli+0.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Golden Tongue -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_speech_desc" buff_exclusivity_id="1" buff_id="3d3d049e-2eea-4b4b-a86c-777c9ab2fbee" buff_lifetime_id="0" buff_name="perk_general_speech" buff_ui_name="buff_general_speech" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="49" implementation="Cpp:Constant" is_persistent="True" params="cha+2,wat*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Headcracker II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="54356231-a50a-45cf-8ee9-ad2ef7709e60" buff_lifetime_id="1" buff_name="perk_headcracker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="hko+0.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Juggler -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_juggler_desc" buff_exclusivity_id="1" buff_id="bc64bdea-4444-4308-ae54-5e5f268d25f6" buff_lifetime_id="0" buff_name="perk_juggler" buff_ui_name="buff_juggler" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="dsl*1.1,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Headcracker III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="91614c4f-b442-4dd4-bbcd-ae9f568c2b9a" buff_lifetime_id="1" buff_name="perk_headcracker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="hko+0.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Ken -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_ken_desc" buff_exclusivity_id="1" buff_id="036cb344-d1d9-4426-8cb8-f2d86f5b79ae" buff_lifetime_id="0" buff_name="perk_general_ken" buff_ui_name="buff_general_ken" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="50" implementation="Cpp:Constant" is_persistent="True" params="cha+2,cap-25" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Heavy Swing II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="6d93207c-aaaa-406e-af1b-5e9990416f25" buff_lifetime_id="1" buff_name="perk_heavy_swing2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Burgher -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_burgess_desc" buff_exclusivity_id="1" buff_id="3e0867d9-cdb1-469f-a59e-e05a377b2b67" buff_lifetime_id="0" buff_name="perk_burgess" buff_ui_name="buff_burgess_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="24" implementation="Cpp:SettlementLocation" is_persistent="True" params="wat*1.1,rms*1.1,cha+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Heavy Swing III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="228bd46a-5565-40fb-86ed-d61450cc2123" buff_lifetime_id="1" buff_name="perk_heavy_swing3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Savage -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_savage_desc" buff_exclusivity_id="1" buff_id="86879e96-f4c0-4824-bc31-c2a24567582f" buff_lifetime_id="0" buff_name="perk_savage" buff_ui_name="buff_savage_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="25" implementation="Cpp:CountrysideLocation" is_persistent="True" params="wat*1.1,rms*1.1,bad+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- AGILITY PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Infamous -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_infamous_desc" buff_exclusivity_id="1" buff_id="ab1fdda7-e59b-48aa-926f-94e19a35300c" buff_lifetime_id="0" buff_name="perk_infamous" buff_ui_name="buff_infamous_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="23" implementation="Cpp:Infamous" is_persistent="True" params="grm*2.0;bma+0.2,bad+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Fast Striker II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="d5e5eced-b170-4b06-a3cf-a9348d72072b" buff_lifetime_id="1" buff_name="perk_fast_striker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Local Hero -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_local_hero_desc" buff_exclusivity_id="1" buff_id="0bbd5e18-1e6d-4e26-a865-e42316e0c55e" buff_lifetime_id="0" buff_name="perk_local_hero" buff_ui_name="buff_local_hero_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="22" implementation="Cpp:LocalHero" is_persistent="True" params="brm*2.0;sma-0.2,cha+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Fast Striker III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="41cc6981-a767-41af-a544-1c7b36f1d355" buff_lifetime_id="1" buff_name="perk_fast_striker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- STATS ////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
-            <!-- Featherweight II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="d9cc8d2a-7dc2-4cc0-bdd5-97a80c99c873" buff_lifetime_id="1" buff_name="perk_like_a_feather2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="fdm*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- STRENGTH PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Featherweight III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="b7091cb7-9809-43c0-8405-ea3a0fe8145f" buff_lifetime_id="1" buff_name="perk_like_a_feather3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="fdm*0.75" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Clinch Master II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="1d9ee3f8-7cd8-4798-a03d-576b1bf8d30a" buff_lifetime_id="1" buff_name="perk_clinch_master2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="cli+0.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- VITALITY PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Headcracker II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="54356231-a50a-45cf-8ee9-ad2ef7709e60" buff_lifetime_id="1" buff_name="perk_headcracker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="hko+0.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Revenant II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="7cf3df96-fbf1-4169-a72e-3d2e0f600d92" buff_lifetime_id="1" buff_name="perk_revenant2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="health+0.125/s" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Headcracker III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="91614c4f-b442-4dd4-bbcd-ae9f568c2b9a" buff_lifetime_id="1" buff_name="perk_headcracker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="hko+0.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Revenant III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="27c4cbce-9338-4fe9-83b8-327868d204c6" buff_lifetime_id="1" buff_name="perk_revenant3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="health+0.125/s" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Heavy Swing II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="6d93207c-aaaa-406e-af1b-5e9990416f25" buff_lifetime_id="1" buff_name="perk_heavy_swing2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Sprinter II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="ea00d8ce-651a-4fd0-b9b4-3f3ff0459a9c" buff_lifetime_id="1" buff_name="perk_sprinter2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="Sprint+0.2,StaminaSprint*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Heavy Swing III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="228bd46a-5565-40fb-86ed-d61450cc2123" buff_lifetime_id="1" buff_name="perk_heavy_swing3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Sprinter III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="db1febb4-bb4c-4e5e-822f-70ca15684104" buff_lifetime_id="1" buff_name="perk_sprinter3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="Sprint+0.2,StaminaSprint*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- AGILITY PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Thickblooded II -->
-            <row buff_ai_tag_id="4" buff_class_id="1" buff_desc="buff_bleeding_desc" buff_exclusivity_id="1" buff_id="81c91cdd-3294-4958-b27e-e076ca8c8692" buff_lifetime_id="0" buff_name="bleeding_thickblooded2" buff_ui_name="buff_bleeding2" buff_ui_order="-10" buff_ui_type_id="2" buff_ui_visibility_id="3" duration="-1" icon_id="3" implementation="Cpp:Bleeding" is_persistent="True" params="ibi*2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Fast Striker II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="d5e5eced-b170-4b06-a3cf-a9348d72072b" buff_lifetime_id="1" buff_name="perk_fast_striker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- SPEECH PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Fast Striker III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="41cc6981-a767-41af-a544-1c7b36f1d355" buff_lifetime_id="1" buff_name="perk_fast_striker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Highborn II - Bard -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_highborn_desc" buff_exclusivity_id="1" buff_id="9d1ca389-f706-4e0f-9084-a0112877a13b" buff_lifetime_id="1" buff_name="perk_bard" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Highborn" is_persistent="True" params="cha+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Featherweight II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="d9cc8d2a-7dc2-4cc0-bdd5-97a80c99c873" buff_lifetime_id="1" buff_name="perk_like_a_feather2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="fdm*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Highborn II - Knight Errant -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_knighterrant_desc" buff_exclusivity_id="1" buff_id="afe5ec86-df60-4517-88b6-922e349b9e02" buff_lifetime_id="1" buff_name="perk_knighterrant" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Highborn" is_persistent="True" params="bad+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Featherweight III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="b7091cb7-9809-43c0-8405-ea3a0fe8145f" buff_lifetime_id="1" buff_name="perk_like_a_feather3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="fdm*0.75" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Lowborn II - Rogue -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_lowborn_desc" buff_exclusivity_id="1" buff_id="95973727-f8a4-475a-a0ef-a20ca1522dd4" buff_lifetime_id="1" buff_name="perk_rogue" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Lowborn" is_persistent="True" params="cha+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- VITALITY PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Lowborn II - Ruffian -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_lowborn_desc" buff_exclusivity_id="1" buff_id="380254c9-65fd-4037-a521-c0bebf76bf58" buff_lifetime_id="1" buff_name="perk_ruffian" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Lowborn" is_persistent="True" params="bad+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Balanced Diet -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_proper_diet_desc" buff_exclusivity_id="1" buff_id="5d669fd1-0f36-4e30-95b8-1b5e53fac46e" buff_lifetime_id="0" buff_name="perk_proper_diet" buff_ui_name="buff_proper_diet_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="27" implementation="Cpp:ProperDiet" is_persistent="True" params="mst*1.2,dsl*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- SKILLS ///////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- Revenant II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="7cf3df96-fbf1-4169-a72e-3d2e0f600d92" buff_lifetime_id="1" buff_name="perk_revenant2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="health+0.125/s" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- ALCHEMY PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Revenant III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="27c4cbce-9338-4fe9-83b8-327868d204c6" buff_lifetime_id="1" buff_name="perk_revenant3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="health+0.25/s" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Venomous Blade II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="42d4e801-27b9-4130-9af5-11b50b283377" buff_lifetime_id="1" buff_name="perk_venomous_blade2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="wbc*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Sprinter II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="ea00d8ce-651a-4fd0-b9b4-3f3ff0459a9c" buff_lifetime_id="1" buff_name="perk_sprinter2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="Sprint+0.3,StaminaSprint*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- DRINKING PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Sprinter III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="db1febb4-bb4c-4e5e-822f-70ca15684104" buff_lifetime_id="1" buff_name="perk_sprinter3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="Sprint+0.5,StaminaSprint*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- HERBALISM PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Thickblooded II -->
+			<row buff_ai_tag_id="4" buff_class_id="1" buff_desc="buff_bleeding_desc" buff_exclusivity_id="1" buff_id="81c91cdd-3294-4958-b27e-e076ca8c8692" buff_lifetime_id="0" buff_name="bleeding_thickblooded2" buff_ui_name="buff_bleeding" buff_ui_order="-10" buff_ui_type_id="2" buff_ui_visibility_id="3" duration="-1" icon_id="3" implementation="Cpp:Bleeding" is_persistent="True" params="ibi*2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- HORSEMANSHIP PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- ============================================================================================ -->
+			<!-- SPEECH PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- ============================================================================================ -->
-            <!-- HUNTING PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+			<!-- PATH: BARD TO MUMMER -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
+			<!-- Highborn II - Bard -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="9d1ca389-f706-4e0f-9084-a0112877a13b" buff_lifetime_id="1" buff_name="perk_bard" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Highborn" is_persistent="True" params="cha+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
+			<!-- Highborn III - Mummer -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="e81a7ca7-ebc3-48d8-8013-1ab6b46478f1" buff_lifetime_id="1" buff_name="perk_mummer" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="vib-10" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- LOCKPICKING PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+			<!-- PATH: KNIGHT ERRANT TO PERFECT KNIGHT -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
-            <!-- Master Thief I (Adept Thief) -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="c052039b-da71-4890-a4be-8e62e374cfb0" buff_lifetime_id="1" buff_name="perk_master_thief" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=0.3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Highborn II - Knight Errant -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="afe5ec86-df60-4517-88b6-922e349b9e02" buff_lifetime_id="1" buff_name="perk_knighterrant" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Highborn" is_persistent="True" params="bad+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Master Thief II (Expert Thief) -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="bc4789e4-2d1d-4753-bec3-4ff3c6bae18f" buff_lifetime_id="1" buff_name="perk_master_thief2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=0.55" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Highborn III - Perfect Knight -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="07402ab0-3abe-4880-b134-9ad227bd0f0a" buff_lifetime_id="1" buff_name="perk_perfectknight" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="grm*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Master Thief III (Master Thief) -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="c6ca2d9e-44bc-47b7-9da1-76999a757dd4" buff_lifetime_id="1" buff_name="perk_master_thief3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=1.0" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+			<!-- PATH: ROGUE TO CHARLATAN -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
+			<!-- Lowborn II - Rogue -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="95973727-f8a4-475a-a0ef-a20ca1522dd4" buff_lifetime_id="1" buff_name="perk_rogue" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Lowborn" is_persistent="True" params="cha+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- MAINTENANCE PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Lowborn III - Charlatan -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="c2636170-3146-4fa4-a937-05cdacce4e38" buff_lifetime_id="1" buff_name="perk_charlatan" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="brm*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- PICKPOCKETING PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+			<!-- PATH: BANDIT TO GUILDSMAN -->
+			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
-            <!-- Secret Pockets II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_shakedown_desc" buff_exclusivity_id="1" buff_id="a7172f84-0c39-445d-a567-efe11685e742" buff_lifetime_id="1" buff_name="perk_shakedown" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:BasicTimed" is_persistent="True" params="rml+5" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Lowborn II - Bandit -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="380254c9-65fd-4037-a521-c0bebf76bf58" buff_lifetime_id="1" buff_name="perk_ruffian" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Lowborn" is_persistent="True" params="bad+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Secret Pockets III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_shakedown_desc" buff_exclusivity_id="1" buff_id="0b0b0588-1f79-4a51-9c35-a982991160cf" buff_lifetime_id="1" buff_name="perk_shakedown" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:BasicTimed" is_persistent="True" params="rml+5" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Lowborn III - Guildsman -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="7736ade4-c32c-4cd1-9f79-7b852bbbb63e" buff_lifetime_id="1" buff_name="perk_guildsman" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="jrm*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- READING PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- SKILLS ///////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
-            <!-- Anatomist -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="0a131945-1a1f-460a-9309-0bf9b66999c0" buff_lifetime_id="1" buff_name="perk_anatomist" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:VersusAnimal" is_persistent="True" params="wat*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- ALCHEMY PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Tactician -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="58aaab9f-7955-4848-9575-fce2578be529" buff_lifetime_id="1" buff_name="perk_tactician" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:VersusSoldier" is_persistent="True" params="wat*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Venomous Blade II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="42d4e801-27b9-4130-9af5-11b50b283377" buff_lifetime_id="1" buff_name="perk_venomous_blade2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="wbc*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- STEALTH PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- Witcher II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="8e6fdf99-b127-4d8e-a24b-92876a57ceae" buff_lifetime_id="1" buff_name="perk_witcher2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Night" is_persistent="True" params="owl+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Slim Fit II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="fca90175-76d2-4500-9fbb-7a0cc9244821" buff_lifetime_id="1" buff_name="perk_slim_fit2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="noi*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- DRINKING PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Slim Fit III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="e2e19af7-6450-4791-b336-47094aa972bd" buff_lifetime_id="1" buff_name="perk_slim_fit3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="noi*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- HERBALISM PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- COMBAT ///////////////////////////////////////////////////////////////////////////////////// -->
-            <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- ============================================================================================ -->
+			<!-- HORSEMANSHIP PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- ============================================================================================ -->
-            <!-- DEFENCE PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- ============================================================================================ -->
+			<!-- HUNTING PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Firm Grip I -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="4b876924-f960-4332-9b28-e9176a9eac09" buff_lifetime_id="1" buff_name="perk_firm_hand" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.15" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- LOCKPICKING PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Firm Grip II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="246e5b1a-2ddd-4576-bea4-19a8b601302d" buff_lifetime_id="1" buff_name="perk_firm_hand2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Master Thief I (Adept Thief) -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="c052039b-da71-4890-a4be-8e62e374cfb0" buff_lifetime_id="1" buff_name="perk_master_thief" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=0.3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Firm Grip III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="84703330-6f3d-4693-92a2-2b86d693315a" buff_lifetime_id="1" buff_name="perk_firm_hand3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Master Thief II (Expert Thief) -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="bc4789e4-2d1d-4753-bec3-4ff3c6bae18f" buff_lifetime_id="1" buff_name="perk_master_thief2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=0.55" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Golem -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_intimidating_posture_desc" buff_exclusivity_id="1" buff_id="ccc3ba27-b7b8-4055-bbee-7218a0c58313" buff_lifetime_id="1" buff_name="perk_intimidating_posture" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:DialogSkillCheck" is_persistent="True" params="arr*1.333333" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Master Thief III (Master Thief) -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="c6ca2d9e-44bc-47b7-9da1-76999a757dd4" buff_lifetime_id="1" buff_name="perk_master_thief3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="lio=1.0" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- ============================================================================================ -->
-            <!-- WARFARE PERKS -->
-            <!-- ============================================================================================ -->
+			<!-- ============================================================================================ -->
+			<!-- MAINTENANCE PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Bloodletter I -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="1bd49b9c-01c0-4df1-8250-0eab7129ded3" buff_lifetime_id="1" buff_name="perk_bloodletter" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.15" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- ============================================================================================ -->
+			<!-- PICKPOCKETING PERKS -->
+			<!-- ============================================================================================ -->
 
-            <!-- Bloodletter II -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="869e3e31-66b2-4843-9c08-aad6dd87d8f2" buff_lifetime_id="1" buff_name="perk_bloodletter2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<!-- Secret Pockets II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_shakedown_desc" buff_exclusivity_id="1" buff_id="a7172f84-0c39-445d-a567-efe11685e742" buff_lifetime_id="1" buff_name="perk_shakedown" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:BasicTimed" is_persistent="True" params="rml+5" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
-            <!-- Bloodletter III -->
-            <row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="95c1b85f-6cf0-498b-a4ed-d9aad1a46ad8" buff_lifetime_id="1" buff_name="perk_bloodletter3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
-        </rows>
-    </table>
+			<!-- Secret Pockets III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_shakedown_desc" buff_exclusivity_id="1" buff_id="0b0b0588-1f79-4a51-9c35-a982991160cf" buff_lifetime_id="1" buff_name="perk_shakedown" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:BasicTimed" is_persistent="True" params="rml+5" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- ============================================================================================ -->
+			<!-- READING PERKS -->
+			<!-- ============================================================================================ -->
+
+			<!-- Anatomist -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="0a131945-1a1f-460a-9309-0bf9b66999c0" buff_lifetime_id="1" buff_name="perk_anatomist" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:VersusAnimal" is_persistent="True" params="wat*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Tactician -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="58aaab9f-7955-4848-9575-fce2578be529" buff_lifetime_id="1" buff_name="perk_tactician" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:VersusSoldier" is_persistent="True" params="wat*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- ============================================================================================ -->
+			<!-- STEALTH PERKS -->
+			<!-- ============================================================================================ -->
+
+			<!-- Slim Fit II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="fca90175-76d2-4500-9fbb-7a0cc9244821" buff_lifetime_id="1" buff_name="perk_slim_fit2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="noi*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Slim Fit III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="e2e19af7-6450-4791-b336-47094aa972bd" buff_lifetime_id="1" buff_name="perk_slim_fit3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="noi*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- COMBAT ///////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- ============================================================================================ -->
+			<!-- DEFENCE PERKS -->
+			<!-- ============================================================================================ -->
+
+			<!-- Firm Grip I -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="4b876924-f960-4332-9b28-e9176a9eac09" buff_lifetime_id="1" buff_name="perk_firm_hand" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.15" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Firm Grip II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="246e5b1a-2ddd-4576-bea4-19a8b601302d" buff_lifetime_id="1" buff_name="perk_firm_hand2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Firm Grip III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="84703330-6f3d-4693-92a2-2b86d693315a" buff_lifetime_id="1" buff_name="perk_firm_hand3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="osb*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Golem -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_intimidating_posture_desc" buff_exclusivity_id="1" buff_id="ccc3ba27-b7b8-4055-bbee-7218a0c58313" buff_lifetime_id="1" buff_name="perk_intimidating_posture" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:DialogSkillCheck" is_persistent="True" params="arr*1.333333" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- ============================================================================================ -->
+			<!-- WARFARE PERKS -->
+			<!-- ============================================================================================ -->
+
+			<!-- Bloodletter I -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="1bd49b9c-01c0-4df1-8250-0eab7129ded3" buff_lifetime_id="1" buff_name="perk_bloodletter" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.15" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Bloodletter II -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="869e3e31-66b2-4843-9c08-aad6dd87d8f2" buff_lifetime_id="1" buff_name="perk_bloodletter2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Bloodletter III -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="95c1b85f-6cf0-498b-a4ed-d9aad1a46ad8" buff_lifetime_id="1" buff_name="perk_bloodletter3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+		</rows>
+	</table>
 </database>

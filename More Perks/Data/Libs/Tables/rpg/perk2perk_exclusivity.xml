@@ -9,8 +9,26 @@
             <!-- Highborn II - Bard/Knight Errant -->
             <row first_perk_id="2366a77c-540c-42fc-8ef5-c96a120b1969" second_perk_id="9a3d02e0-ce39-4c61-ac89-7bd906f1dd03" />
 
-            <!-- Lowborn II - Rogue/Ruffian -->
+            <!-- Highborn II - Knight Errant / Main Level - Infamous -->
+            <row first_perk_id="9a3d02e0-ce39-4c61-ac89-7bd906f1dd03" second_perk_id="869dfebb-617d-47d0-b455-669b71334ed5" />
+
+            <!-- Highborn III - Mummer / Main Level - Infamous -->
+            <row first_perk_id="30b5fb99-c79e-401f-ac09-73a6277b3006" second_perk_id="869dfebb-617d-47d0-b455-669b71334ed5" />
+
+			<!-- Highborn III - Perfect Knight / Main Level - Infamous -->
+            <row first_perk_id="d034372e-3e66-437d-b8f1-fd46375fdb3a" second_perk_id="869dfebb-617d-47d0-b455-669b71334ed5" />
+
+            <!-- Lowborn II - Rogue/Bandit -->
             <row first_perk_id="9dc8588e-ffc8-4f77-ad2d-0fd5eb939561" second_perk_id="7f8c781b-142d-4bca-a9ab-2ba11dc9dfd6" />
+
+            <!-- Lowborn II - Bandit / Main Level - Local Hero -->
+            <row first_perk_id="7f8c781b-142d-4bca-a9ab-2ba11dc9dfd6" second_perk_id="85e9756f-7b18-4842-bf94-004aceec5af5" />
+
+            <!-- Lowborn III - Charlatan / Main Level - Local Hero -->
+            <row first_perk_id="ff1af46e-0cf2-48e4-8879-bba037e8a3a1" second_perk_id="85e9756f-7b18-4842-bf94-004aceec5af5" />
+
+			<!-- Lowborn III - Guildsman / Main Level - Local Hero -->
+            <row first_perk_id="013b127a-8ef6-4129-8057-f9f11a9750c7" second_perk_id="85e9756f-7b18-4842-bf94-004aceec5af5" />
 
             <!-- Fast Striker / Heavy Swing -->
             <row first_perk_id="97aac44f-2789-4030-8438-a8421c7ae5e2" second_perk_id="4b54447c-d283-4338-b433-6153969612fc" />
