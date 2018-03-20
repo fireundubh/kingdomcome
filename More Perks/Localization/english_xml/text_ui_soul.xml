@@ -1,7 +1,7 @@
 <Table>
 	<Row>
         <Cell>perk_charlatan_desc</Cell>
-        <Cell>When you perform bad deeds, your reputation falls 20% slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Rogue</Cell>
+        <Cell>When you perform dastardly deeds, your reputation falls 20% slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Rogue</Cell>
     </Row>
     <Row>
         <Cell>perk_charlatan_name</Cell>
@@ -34,7 +34,7 @@
     </Row>
     <Row>
         <Cell>perk_fast_striker2_desc</Cell>
-        <Cell>Your attacks cost 50% less Stamina, but you deal 30% less damage.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+        <Cell>Your attacks cost 50% less Stamina, but you deal 30% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_fast_striker2_name</Cell>
@@ -43,7 +43,7 @@
     </Row>
     <Row>
         <Cell>perk_fast_striker3_desc</Cell>
-        <Cell>Your attacks cost 70% less Stamina, but you deal 40% less damage.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+        <Cell>Your attacks cost 70% less Stamina, but you deal 40% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_fast_striker3_name</Cell>
@@ -59,7 +59,7 @@
     </Row>
     <Row>
         <Cell>perk_like_a_feather2_desc</Cell>
-        <Cell>You suffer 50% less damage from falling.</Cell>
+        <Cell>You suffer 50% less damage from falling.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Featherweight I</Cell>
     </Row>
     <Row>
         <Cell>perk_like_a_feather2_name</Cell>
@@ -67,7 +67,7 @@
     </Row>
     <Row>
         <Cell>perk_like_a_feather3_desc</Cell>
-        <Cell>You suffer 75% less damage from falling.</Cell>
+        <Cell>You suffer 75% less damage from falling.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Featherweight II</Cell>
     </Row>
     <Row>
         <Cell>perk_like_a_feather3_name</Cell>
@@ -99,7 +99,7 @@
     </Row>
     <Row>
         <Cell>perk_heavy_swing_desc</Cell>
-        <Cell>You deal 20% more damage but your attacks cost 10% more Stamina.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength-based weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Fast Striker</Cell>
+        <Cell>You deal 20% more damage but your attacks cost 10% more Stamina.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Fast Striker</Cell>
     </Row>
     <Row>
         <Cell>perk_heavy_swing_name</Cell>
@@ -107,7 +107,7 @@
     </Row>
     <Row>
         <Cell>perk_heavy_swing2_desc</Cell>
-        <Cell>You deal 40% more damage but your attacks cost 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength-based weapons</Cell>
+        <Cell>You deal 40% more damage but your attacks cost 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_heavy_swing2_name</Cell>
@@ -115,7 +115,7 @@
     </Row>
     <Row>
         <Cell>perk_heavy_swing3_desc</Cell>
-        <Cell>You deal 60% more damage but your attacks cost 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength-based weapons</Cell>
+        <Cell>You deal 60% more damage but your attacks cost 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_heavy_swing3_name</Cell>
@@ -638,7 +638,7 @@
     </Row>
     <Row>
         <Cell>perk_empathic_desc</Cell>
-        <Cell>You've a good sense of what people want to hear. In conversations, your counterpart's speech stats are visible.</Cell>
+        <Cell>You've a good sense of what people want to hear. In conversations, you can see your counterpart's speech stats.</Cell>
     </Row>
     <Row>
         <Cell>perk_empathic_name</Cell>
@@ -671,7 +671,7 @@
     </Row>
     <Row>
         <Cell>perk_film_grip2_desc</Cell>
-        <Cell>Blocking an opponent's strikes with your shield costs him 20% more Stamina.</Cell>
+        <Cell>Blocking an opponent's strikes with your shield costs him 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Firm Grip I</Cell>
     </Row>
     <Row>
         <Cell>perk_film_grip2_name</Cell>
@@ -679,7 +679,7 @@
     </Row>
     <Row>
         <Cell>perk_film_grip3_desc</Cell>
-        <Cell>Blocking an opponent's strikes with your shield costs him 25% more Stamina.</Cell>
+        <Cell>Blocking an opponent's strikes with your shield costs him 25% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Firm Grip II</Cell>
     </Row>
     <Row>
         <Cell>perk_film_grip3_name</Cell>
@@ -759,7 +759,7 @@
     </Row>
 	<Row>
         <Cell>perk_guildsman_desc</Cell>
-        <Cell>You're a made guy. You recover from jail time 20% faster than your peers.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thug</Cell>
+        <Cell>You're a made guy. You recover from jail time 20% faster than your more fragile peers.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thug</Cell>
     </Row>
     <Row>
         <Cell>perk_guildsman_name</Cell>
@@ -859,7 +859,7 @@
     </Row>
     <Row>
         <Cell>perk_infamous_desc</Cell>
-        <Cell>With a low reputation in a given area, traders cough up 20% more for the goods you "sell" them and you gain +1 Badassness in conversations, but your reputation rises twice as fast when you perform good deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+        <Cell>With a low reputation, traders cough up 20% more for the goods you "sell" them and you gain +1 Badassness in conversations, but your reputation rises twice as fast when you perform good deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
     </Row>
     <Row>
         <Cell>perk_infamous_name</Cell>
@@ -867,7 +867,7 @@
     </Row>
     <Row>
         <Cell>perk_insomniac_desc</Cell>
-        <Cell>You'll sleep when you're dead. Your Energy level falls 25% slower.</Cell>
+        <Cell>You'll sleep when you're dead. Your Energy falls 25% slower.</Cell>
     </Row>
     <Row>
         <Cell>perk_insomniac_name</Cell>
@@ -891,7 +891,7 @@
     </Row>
     <Row>
         <Cell>perk_item_expert_2_desc</Cell>
-        <Cell>Reveals stats for all items in your target's purse.</Cell>
+        <Cell>Reveals stats for all items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Item Expert I</Cell>
     </Row>
     <Row>
         <Cell>perk_item_expert_2_name</Cell>
@@ -907,7 +907,7 @@
     </Row>
     <Row>
         <Cell>perk_juggler_desc</Cell>
-        <Cell>You're exceptionally agile, but turning somersaults and falling on your head left their mark. You can dodge 10% more easily, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
+        <Cell>You're supple and agile, but turning somersaults and falling on your head left their mark. You can dodge 10% more easily, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
     </Row>
     <Row>
         <Cell>perk_juggler_name</Cell>
@@ -923,7 +923,7 @@
     </Row>
     <Row>
         <Cell>perk_knigh_in_shining_desc</Cell>
-        <Cell>In sunny weather, the glint of your armour dazzles everyone so much, you're taken for a noble knight. You gain +4 Charisma.</Cell>
+        <Cell>In sunny weather, the glint of your armour dazzles everyone around you, and you're taken for a noble knight. You gain +4 Charisma.</Cell>
     </Row>
     <Row>
         <Cell>perk_knigh_in_shining_name</Cell>
@@ -979,7 +979,7 @@
     </Row>
     <Row>
         <Cell>perk_local_hero_desc</Cell>
-        <Cell>With a high reputation, traders offer you a 20% discount and you gain +1 Charisma in conversations, but your reputation falls twice as fast when you perform dastardly deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+        <Cell>With a high reputation, traders offer you a 20% discount and you gain +1 Charisma in conversations, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
     </Row>
     <Row>
         <Cell>perk_local_hero_name</Cell>
@@ -1035,7 +1035,7 @@
     </Row>
     <Row>
         <Cell>perk_magister_2_desc</Cell>
-        <Cell>When trying to persuade guards, you gain +2 Speech.</Cell>
+        <Cell>When trying to persuade guards, you gain +2 Speech.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Magistrate I</Cell>
     </Row>
     <Row>
         <Cell>perk_magister_2_name</Cell>
@@ -1043,7 +1043,7 @@
     </Row>
     <Row>
         <Cell>perk_magister_3_desc</Cell>
-        <Cell>When trying to persuade guards, you gain +3 Speech.</Cell>
+        <Cell>When trying to persuade guards, you gain +3 Speech.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Magistrate II</Cell>
     </Row>
     <Row>
         <Cell>perk_magister_3_name</Cell>
@@ -1051,7 +1051,7 @@
     </Row>
     <Row>
         <Cell>perk_manly_odour_desc</Cell>
-        <Cell>You dirty dog. Women find you irresistible when you're filthy, but you're 30% less stealthy because people can smell you coming.</Cell>
+        <Cell>You dirty dog. Women find you irresistible when you're filthy, but you're 30% less stealthy. People can smell you coming.</Cell>
     </Row>
     <Row>
         <Cell>perk_manly_odour_name</Cell>
@@ -1075,7 +1075,7 @@
     </Row>
     <Row>
         <Cell>perk_master_thief2_desc</Cell>
-        <Cell>You can unlock Hard locks automatically.</Cell>
+        <Cell>You can unlock Hard locks automatically.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Adept Thief</Cell>
     </Row>
     <Row>
         <Cell>perk_master_thief2_name</Cell>
@@ -1083,7 +1083,7 @@
     </Row>
     <Row>
         <Cell>perk_master_thief3_desc</Cell>
-        <Cell>You can unlock Very Hard locks automatically.</Cell>
+        <Cell>You can unlock Very Hard locks automatically.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Expert Thief</Cell>
     </Row>
     <Row>
         <Cell>perk_master_thief3_name</Cell>
@@ -1092,7 +1092,7 @@
     </Row>
     <Row>
         <Cell>perk_merchants_wit_desc</Cell>
-        <Cell>You've a gift for words. When you haggle, you gain Speech XP.</Cell>
+        <Cell>You've a gift. When you haggle, you gain Speech XP.</Cell>
     </Row>
     <Row>
         <Cell>perk_merchants_wit_name</Cell>
@@ -1124,7 +1124,7 @@
     </Row>
 	<Row>
         <Cell>perk_mummer_desc</Cell>
-        <Cell>You know well the art of the disguise. You're less likely to be seen by those you'd rather not see you.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bard</Cell>
+        <Cell>You know well the art of the disguise. You're less likely to be seen by those who you'd rather not see you.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bard</Cell>
     </Row>
     <Row>
         <Cell>perk_mummer_name</Cell>
@@ -1164,7 +1164,7 @@
     </Row>
 	<Row>
         <Cell>perk_perfect_knight_desc</Cell>
-        <Cell>When you perform good deeds, your reputation rises 20% faster.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Knight Errant</Cell>
+        <Cell>When you perform good deeds, your reputation rises 20% faster. Veritas vincit.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Knight Errant</Cell>
     </Row>
     <Row>
         <Cell>perk_perfect_knight_name</Cell>
@@ -1188,7 +1188,7 @@
     </Row>
     <Row>
         <Cell>perk_pocket_sight_2_desc</Cell>
-        <Cell>Immediately reveals three items in your target's purse.</Cell>
+        <Cell>Immediately reveals three items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Pocket Sight I</Cell>
     </Row>
     <Row>
         <Cell>perk_pocket_sight_2_name</Cell>
@@ -1196,7 +1196,7 @@
     </Row>
     <Row>
         <Cell>perk_pocket_sight_3_desc</Cell>
-        <Cell>Immediately reveals all items in your target's purse.</Cell>
+        <Cell>Immediately reveals all items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Pocket Sight II</Cell>
     </Row>
     <Row>
         <Cell>perk_pocket_sight_3_name</Cell>
@@ -1280,7 +1280,7 @@
     </Row>
     <Row>
         <Cell>perk_routine_2_desc</Cell>
-        <Cell>Auto-brewing produces three potions for the price of one.</Cell>
+        <Cell>Auto-brewing produces three potions for the price of one.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Routine I</Cell>
     </Row>
     <Row>
         <Cell>perk_routine_2_name</Cell>
@@ -1376,7 +1376,7 @@
     </Row>
     <Row>
         <Cell>perk_slim_fit2_desc</Cell>
-        <Cell>Lowers the noise of armour and other equipment by 30%.</Cell>
+        <Cell>Lowers the noise of armour and other equipment by 30%.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Slim Fit I</Cell>
     </Row>
     <Row>
         <Cell>perk_slim_fit2_name</Cell>
@@ -1384,7 +1384,7 @@
     </Row>
     <Row>
         <Cell>perk_slim_fit3_desc</Cell>
-        <Cell>Lowers the noise of armour and other equipment by 40%.</Cell>
+        <Cell>Lowers the noise of armour and other equipment by 40%.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Slim Fit II</Cell>
     </Row>
     <Row>
         <Cell>perk_slim_fit3_name</Cell>
@@ -1718,7 +1718,7 @@
     </Row>
     <Row>
         <Cell>perk_weapon_cruncher_desc</Cell>
-        <Cell>When you beat your opponent in a clinch, you deal 15% more damage to his weapon. Damaged weapons are less effective and less valuable.</Cell>
+        <Cell>When you beat your opponent in a clinch, you deal 15% more damage to his weapon.&lt;br/&gt;&lt;br/&gt;Damaged weapons are less effective and less valuable.</Cell>
     </Row>
     <Row>
         <Cell>perk_weapon_cruncher_name</Cell>
@@ -1758,7 +1758,7 @@
     </Row>
     <Row>
         <Cell>perk_witcher2_desc</Cell>
-        <Cell>Your witcher senses have evolved. When night falls, you see better in dark places.</Cell>
+        <Cell>Your witcher senses have evolved. When night falls, you see better in dark places.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Witcher I</Cell>
     </Row>
     <Row>
         <Cell>perk_witcher2_name</Cell>
