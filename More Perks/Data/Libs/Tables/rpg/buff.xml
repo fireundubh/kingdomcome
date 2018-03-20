@@ -91,6 +91,10 @@
 			<!-- Headcracker III -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="91614c4f-b442-4dd4-bbcd-ae9f568c2b9a" buff_lifetime_id="1" buff_name="perk_headcracker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="hko+0.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
+			<!-- Heavy Swing I -->
+			<!-- FIXED: v1.3 decreased wat to 1.03 from 1.2, reverted change -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="74213ddf-7a92-4a49-ae40-dca43e179197" buff_lifetime_id="1" buff_name="perk_heavy_swing" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
 			<!-- Heavy Swing II -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_heavy_swing_desc" buff_exclusivity_id="1" buff_id="6d93207c-aaaa-406e-af1b-5e9990416f25" buff_lifetime_id="1" buff_name="perk_heavy_swing2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:StrengthWeaponBuff" is_persistent="True" params="wat*1.2,wac*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
@@ -102,10 +106,10 @@
 			<!-- ============================================================================================ -->
 
 			<!-- Fast Striker II -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="d5e5eced-b170-4b06-a3cf-a9348d72072b" buff_lifetime_id="1" buff_name="perk_fast_striker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="d5e5eced-b170-4b06-a3cf-a9348d72072b" buff_lifetime_id="1" buff_name="perk_fast_striker2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Fast Striker III -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="41cc6981-a767-41af-a544-1c7b36f1d355" buff_lifetime_id="1" buff_name="perk_fast_striker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_fast_striker_desc" buff_exclusivity_id="1" buff_id="41cc6981-a767-41af-a544-1c7b36f1d355" buff_lifetime_id="1" buff_name="perk_fast_striker3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:AgilityWeaponBuff" is_persistent="True" params="wat*0.9,wac*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Featherweight II -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="d9cc8d2a-7dc2-4cc0-bdd5-97a80c99c873" buff_lifetime_id="1" buff_name="perk_like_a_feather2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="fdm*0.8" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />

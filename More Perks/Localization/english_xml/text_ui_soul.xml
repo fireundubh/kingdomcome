@@ -26,7 +26,7 @@
     </Row>
     <Row>
         <Cell>perk_fast_striker_desc</Cell>
-        <Cell>Your attacks cost 30% less Stamina, but you deal 20% less damage.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Heavy Swing</Cell>
+        <Cell>Your attacks cost 30% less Stamina, but you deal 10% less damage.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Heavy Swing</Cell>
     </Row>
     <Row>
         <Cell>perk_fast_striker_name</Cell>
@@ -34,7 +34,7 @@
     </Row>
     <Row>
         <Cell>perk_fast_striker2_desc</Cell>
-        <Cell>Your attacks cost 50% less Stamina, but you deal 30% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+        <Cell>Your attacks cost 40% less Stamina, but you deal 20% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_fast_striker2_name</Cell>
@@ -43,7 +43,7 @@
     </Row>
     <Row>
         <Cell>perk_fast_striker3_desc</Cell>
-        <Cell>Your attacks cost 70% less Stamina, but you deal 40% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+        <Cell>Your attacks cost 50% less Stamina, but you deal 30% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
     </Row>
     <Row>
         <Cell>perk_fast_striker3_name</Cell>
@@ -427,7 +427,7 @@
     </Row>
     <Row>
         <Cell>perk_blood_rush_desc</Cell>
-        <Cell>After beating your first opponent, you deal +50% damage and your Stamina regenerates +25% faster.</Cell>
+        <Cell>After beating your first opponent, you deal 10% more damage and your Stamina regenerates +20% faster.</Cell>
     </Row>
     <Row>
         <Cell>perk_blood_rush_name</Cell>
@@ -548,7 +548,7 @@
     </Row>
     <Row>
         <Cell>perk_cuman_in_killer</Cell>
-        <Cell>You've earned a fearsome reputation among Cumans. They are 50% more likely to flee from combat, and you deal 200% more damage to them.</Cell>
+        <Cell>You've earned a fearsome reputation among Cumans. They are 50% more likely to flee from combat, and you deal 20% more damage to them.</Cell>
     </Row>
     <Row>
         <Cell>perk_cuman_nm_killer</Cell>
