@@ -6,7 +6,7 @@
             <column name="second_perk_id" type="uuid" />
         </header>
         <rows>
-            <!-- Highborn II - Bard/Knight Errant -->
+            <!-- Highborn II - Bard / Knight Errant -->
             <row first_perk_id="2366a77c-540c-42fc-8ef5-c96a120b1969" second_perk_id="9a3d02e0-ce39-4c61-ac89-7bd906f1dd03" />
 
             <!-- Highborn II - Knight Errant / Main Level - Infamous -->
@@ -18,7 +18,7 @@
 			<!-- Highborn III - Perfect Knight / Main Level - Infamous -->
             <row first_perk_id="d034372e-3e66-437d-b8f1-fd46375fdb3a" second_perk_id="869dfebb-617d-47d0-b455-669b71334ed5" />
 
-            <!-- Lowborn II - Rogue/Thug -->
+            <!-- Lowborn II - Rogue / Thug -->
             <row first_perk_id="9dc8588e-ffc8-4f77-ad2d-0fd5eb939561" second_perk_id="7f8c781b-142d-4bca-a9ab-2ba11dc9dfd6" />
 
             <!-- Lowborn II - Thug / Main Level - Local Hero -->
