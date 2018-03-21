@@ -1,5 +1,17 @@
 EasyLockpicking = {}
 
+-- change to false to disable the lockpick requirement
+enableLockpickRequired = false
+
+-- change to false to prevent lockpicks from breaking
+enableLockpickBreaking = false
+
+-- change to false to disable the skill requirement
+enableSkillRequired = false
+
+-- change to false to prevent stashes/doors from automatically opening
+enableAutoOpen = true
+
 function EasyLockpicking.BuildLockpickPromptStrName(lockDifficulty)
 	local levels = {
 		{ minLockDifficulty = 0.75, strName = "ui_hud_lockpick_difficulty_4" },
@@ -31,11 +43,6 @@ function EasyLockpicking.CanPickLock(skillLevel, lockDifficulty)
 end
 
 function EasyLockpicking.TryToAutoUnlock(entity, user)
-	local enableLockpickRequired = false
-	local enableLockpickBreaking = false
-	local enableSkillRequired = false
-	local enableAutoOpen = true
-
 	-- get the player's lockpicking skill level
 	local skillLevel = user.soul:GetSkillLevel("lockpicking")
 
@@ -81,6 +88,9 @@ function EasyLockpicking.TryToAutoUnlock(entity, user)
 	entity:Unlock()
 	BroadcastEvent(entity, "Unlock")
 	XGenAIModule.SendMessageToEntity(entity.this.id, "tutorial:lockPicking", "2")
+
+	-- refresh UI
+	entity:GetActions(user)
 
 	-- emit sound for ai when the door/stash is unlocked
 	CrimeUtils.ProduceAiSoundOnDudePosition(enum_sound.door, 0.03)
