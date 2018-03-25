@@ -77,6 +77,7 @@ Stash = {
 	nSoundId = 0,
 	bLocked = 0,
 	bOpened = 0,
+	bSearched = 0,
 	bNeedUpdate = 0,
 	bUseableMsgChanged = 0,
 	inventoryId = 0,
@@ -89,6 +90,7 @@ Stash = {
 function Stash:OnLoad(table)
 	self.bLocked = table.bLocked
 	self.bOpened = table.bOpened
+	self.bSearched = table.bSearched
 	self.bNeedUpdate = 0
 	self:ResetAnimation(0, -1)
 	self:DoStopSound()
@@ -131,6 +133,7 @@ end
 function Stash:OnSave(table)
 	table.bLocked = self.bLocked
 	table.bOpened = self.bOpened
+	table.bSearched = self.bSearched
 
 	table.lockpickIsLegal = self.lockpickIsLegal
 	table.lootIsLegal = self.lootIsLegal
@@ -180,6 +183,7 @@ end
 function Stash:Reset()
 	self.bLocked = 0
 	self.bOpened = 0
+	self.bSearched = 0
 	self.bUseSameAnim = self.Properties.Animation.anim_Close == "" or self.Properties.Animation.anim_Close == self.Properties.Animation.anim_Open
 
 	if self.Properties.object_Model ~= "" then
@@ -315,6 +319,11 @@ function Stash:GetActions(user, firstFast)
 
 		if self.bLocked == 0 then
 			local hint = pick(self.bOpened == 1, "@ui_close_stash", pick(usesStealUiPrompt, "@ui_open_stash_crime", "@ui_open_stash"))
+
+			if self.bSearched == 1 then
+				hint = pick(self.bOpened == 1, "@ui_close_stash", pick(usesStealUiPrompt, "@ui_open_stash_crime_searched", "@ui_open_stash_searched"))
+			end
+
 			local interaction = pick(self.bOpened == 1, inr_stashClose, inr_stashOpen)
 
 			if self.bOpened == 1 then
@@ -342,6 +351,11 @@ function Stash:GetActions(user, firstFast)
 			else
 				if EntityModule.CanUseInventory(self.inventoryId) and self.interactive then
 					local hint = pick(usesStealUiPrompt, "@ui_open_stash_crime", "@ui_open_stash")
+
+					if self.bSearched == 1 then
+						hint = pick(usesStealUiPrompt, "@ui_open_stash_crime_searched", "@ui_open_stash_searched")
+					end
+
 					local hintType = pick(usesStealUiPrompt, AHT_HOLD, AHT_PRESS)
 
 					actionState = AddInteractorAction(output, firstFast, Action():hint(hint):hintType(hintType):enabled(actionEnabled):action("use"):func(Stash.OnUsed):interaction(inr_stashOpen))
@@ -521,6 +535,7 @@ end
 
 function Stash:OnOpen()
 	self.bOpened = 1
+	self.bSearched = 1
 	self.bUseableMsgChanged = 1
 
 	if self.Properties.Animation.bOpenOnly ~= 1 then
