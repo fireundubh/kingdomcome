@@ -1,0 +1,10 @@
+<Table>
+	<Row>
+		<Cell>ui_open_stash_searched</Cell>
+		<Cell>Öffnen (durchsucht)</Cell>
+	</Row>
+	<Row>
+		<Cell>ui_open_stash_crime_searched</Cell>
+		<Cell>Stehlen (durchsucht)</Cell>
+	</Row>
+</Table>
