@@ -1,0 +1,10 @@
+<Table>
+	<Row>
+		<Cell>ui_open_stash_searched</Cell>
+		<Cell>Otevřít (prohledat)</Cell>
+	</Row>
+	<Row>
+		<Cell>ui_open_stash_crime_searched</Cell>
+		<Cell>Okrást (prohledat)</Cell>
+	</Row>
+</Table>
