@@ -1,10 +1,10 @@
 <Table>
 	<Row>
 		<Cell>ui_open_stash_searched</Cell>
-		<Cell>Открыть (обыскивать)</Cell>
+		<Cell>Abrir (registrado)</Cell>
 	</Row>
 	<Row>
 		<Cell>ui_open_stash_crime_searched</Cell>
-		<Cell>Украсть (обыскивать)</Cell>
+		<Cell>Robar (registrado)</Cell>
 	</Row>
 </Table>
