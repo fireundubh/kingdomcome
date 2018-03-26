@@ -52,6 +52,7 @@ AnimDoor = {
 		ShowBounds = 1,
 	},
 	nDirection = -1,
+	bOpenAfterUnlock = 0,
 	bUseSameAnim = 0,
 	bNoAnims = 0,
 	nSoundId = 0,
@@ -307,14 +308,18 @@ function AnimDoor:GetActions(user, firstFast)
 				local id = player.inventory:FindItem(self.Properties.Lock.guidItemClassId)
 
 				if id and id ~= 0 then
-					AddInteractorAction(output, firstFast, Action():hint("@ui_hud_unlock"):action("use"):func(AnimDoor.OnUsed):interaction(inr_doorUnlock))
+					if AddInteractorAction(output, firstFast, Action():hint("@ui_hud_unlock"):action("use"):func(AnimDoor.OnUsed):interaction(inr_doorUnlock)) then
+						return output
+					end
 				end
 			end
 		else
 			local hint = pick(self.nDirection == -1, "@ui_door_open", "@ui_door_close")
 			local interaction = pick(self.nDirection == -1, inr_doorOpen, inr_doorClose)
 
-			AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):func(AnimDoor.OnUsed):interaction(interaction))
+			if AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):func(AnimDoor.OnUsed):interaction(interaction)) then
+				return output
+			end
 		end
 	end
 
@@ -413,7 +418,15 @@ function AnimDoor:Unlock()
 	if AI then
 		AI.ModifySmartObjectStates(self.id, "-Locked")
 	end
+
 	self.bLocked = 0
+
+	if self.bOpenAfterUnlock ~= 1 then
+		return
+	end
+
+	self.bOpenAfterUnlock = 0
+	self:Open()
 end
 
 function AnimDoor:Open()
@@ -790,7 +803,7 @@ AnimDoor.FlowEvents = {
 	},
 }
 
-function AnimDoor:SetLockpickLegal (value)
+function AnimDoor:SetLockpickLegal(value)
 	self.lockpickIsLegal = value
 end
 
@@ -798,6 +811,6 @@ function AnimDoor:IsLockpickLegal()
 	return self.lockpickIsLegal
 end
 
-function AnimDoor:SetInteractive (value)
+function AnimDoor:SetInteractive(value)
 	self.interactive = value
 end
