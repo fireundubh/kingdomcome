@@ -312,11 +312,7 @@ function Stash:GetActions(user, firstFast)
 
 	local usesStealUiPrompt = self:UsesStealUiPrompt()
 
-	local actionState
-
 	if Framework.IsValidWUID(shopWUID) and self.nUserId == 0 then
-		--local shopID = Shops.GetShopDBIdByLinkedEntityId(self.id)
-
 		if self.bLocked == 0 then
 			local hint = pick(self.bOpened == 1, "@ui_close_stash", pick(usesStealUiPrompt, "@ui_open_stash_crime", "@ui_open_stash"))
 
@@ -327,25 +323,36 @@ function Stash:GetActions(user, firstFast)
 			local interaction = pick(self.bOpened == 1, inr_stashClose, inr_stashOpen)
 
 			if self.bOpened == 1 then
-				actionState = AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(interaction))
+				if AddInteractorAction(output, firstFast, Action():hint(hint):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(interaction)) then
+					return output
+				end
 			else
-				actionState = AddInteractorAction(output, firstFast, Action():hint(hint):hintType(pick(usesStealUiPrompt, AHT_HOLD, AHT_PRESS)):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(interaction))
+				local hintType = pick(usesStealUiPrompt and self.bLocked == 1, AHT_HOLD, AHT_PRESS)
+				if AddInteractorAction(output, firstFast, Action():hint(hint):hintType(hintType):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(interaction)) then
+					return output
+				end
 			end
 		end
 	else
 		if self.bOpened == 1 then
-			actionState = AddInteractorAction(output, firstFast, Action():hint("@ui_close_stash"):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(inr_stashClose))
+			if AddInteractorAction(output, firstFast, Action():hint("@ui_close_stash"):action("use"):enabled(actionEnabled):func(Stash.OnUsed):interaction(inr_stashClose)) then
+				return output
+			end
 		else
 			if self.bLocked == 1 then
 				local hint = pick(self.Properties.Lock.bCanLockPick == 1 and self.nUserId ~= 0, "@ui_hud_stop_use", "@ui_hud_unlock")
 
 				if self.Properties.Lock.bCanLockPick == 1 and self.nUserId ~= 0 then
-					actionState = AddInteractorAction(output, firstFast, Action():hint(hint):action("back"):actionMap("lockpicking"):func(Stash.OnUsed))
+					if AddInteractorAction(output, firstFast, Action():hint(hint):action("back"):actionMap("lockpicking"):func(Stash.OnUsed)) then
+						return output
+					end
 				elseif self.Properties.Lock.guidItemClassId ~= "" then
 					local id = player.inventory:FindItem(self.Properties.Lock.guidItemClassId)
 
 					if id and id ~= 0 then
-						actionState = AddInteractorAction(output, firstFast, Action():hint(hint):enabled(actionEnabled):action("use"):func(Stash.OnUsed):interaction(inr_stashUnlock))
+						if AddInteractorAction(output, firstFast, Action():hint(hint):enabled(actionEnabled):action("use"):func(Stash.OnUsed):interaction(inr_stashUnlock)) then
+							return output
+						end
 					end
 				end
 			else
@@ -356,16 +363,14 @@ function Stash:GetActions(user, firstFast)
 						hint = pick(usesStealUiPrompt, "@ui_open_stash_crime_searched", "@ui_open_stash_searched")
 					end
 
-					local hintType = pick(usesStealUiPrompt, AHT_HOLD, AHT_PRESS)
+					local hintType = pick(usesStealUiPrompt and self.bLocked == 1, AHT_HOLD, AHT_PRESS)
 
-					actionState = AddInteractorAction(output, firstFast, Action():hint(hint):hintType(hintType):enabled(actionEnabled):action("use"):func(Stash.OnUsed):interaction(inr_stashOpen))
+					if AddInteractorAction(output, firstFast, Action():hint(hint):hintType(hintType):enabled(actionEnabled):action("use"):func(Stash.OnUsed):interaction(inr_stashOpen)) then
+						return output
+					end
 				end
 			end
 		end
-	end
-
-	if actionState then
-		return output
 	end
 
 	if self.nUserId ~= 0 or self.Properties.Lock.bCanLockPick ~= 1 or self.bLocked ~= 1 then
@@ -386,7 +391,6 @@ function Stash:GetUsableEvent()
 end
 
 function Stash:Open(user)
-
 	if (self.Properties.Phase.bChangeAfterPlayerInteract == 1) then
 		self:LoadObject(0, self.Properties.Phase.object_ModelAfterInteract)
 	end
@@ -408,7 +412,6 @@ function Stash:Open(user)
 	if user == player then
 		CrimeUtils.ProduceAiSoundOnDudePosition(enum_sound.door, 0.03)
 	end
-
 end
 
 function Stash:Close()
@@ -420,6 +423,7 @@ function Stash:OnInventoryClosed()
 end
 
 function Stash:OnUsed(user, slot)
+	dump(self)
 
 	if self.nDirection == 0 or self.bNeedUpdate == 1 then
 		return
@@ -704,7 +708,7 @@ function Stash:GetInventory()
 	return self.inventoryId
 end
 
-function Stash:SetInventory (inventory)
+function Stash:SetInventory(inventory)
 	self.inventoryId = inventory
 end
 
@@ -763,7 +767,7 @@ function Stash:IsLockpickLegal()
 	return self.lockpickIsLegal
 end
 
-function Stash:SetLootLegal (value)
+function Stash:SetLootLegal(value)
 	self.lootIsLegal = value
 end
 
@@ -771,7 +775,7 @@ function Stash:IsLootLegal()
 	return self.lootIsLegal
 end
 
-function Stash:SetInteractive (value)
+function Stash:SetInteractive(value)
 	self.interactive = value
 end
 
