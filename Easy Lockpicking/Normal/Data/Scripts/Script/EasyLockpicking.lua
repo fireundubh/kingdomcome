@@ -58,15 +58,12 @@ function EasyLockpicking.CanPickLock(skillLevel, lockDifficulty)
 end
 
 
-
-
-
 --- Breaks a lockpick by removing the lockpick from the user inventory
 --- @param user				(table)		The entity making the lockpicking attempt
 --- @return true|false					true:	Lockpick was broken
 ---										false:	Lockpick was not broken
 
-function EasyLockpicking.BreakLockpick(user, skillLevel)
+function EasyLockpicking.BreakLockpick(entity, user, skillLevel)
 	-- generate random seed for dice roll
 	math.randomseed(os.time())
 
@@ -171,23 +168,19 @@ function EasyLockpicking.TryToAutoUnlock(entity, user)
 
 	if enableLockpickBreaking then
 		-- if user breaks lockpick, don't continue
-		if EasyLockpicking.BreakLockpick(user, skillLevel) then
+		if EasyLockpicking.BreakLockpick(entity, user, skillLevel) then
 			Game.SendInfoText("Lockpick broke! Failed to pick lock.", true)
 			return
 		end
 	end
 
-	-- unlock the stash/door
 	EasyLockpicking.Unlock(entity, user)
 
-	if enableAutoOpen then
-		-- open the stash/door
-		EasyLockpicking.Open(entity, user)
-	end
-
-	-- reward lockpicking and stealth xp
 	EasyLockpicking.RewardXP(user, skillLevel, lockDifficulty)
 
-	-- show success message
 	Game.SendInfoText("@ui_hud_lp_success", true)
+
+	if enableAutoOpen then
+		EasyLockpicking.Open(entity, user)
+	end
 end

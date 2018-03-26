@@ -174,17 +174,13 @@ function EasyLockpicking.TryToAutoUnlock(entity, user)
 		end
 	end
 
-	-- unlock the stash/door
 	EasyLockpicking.Unlock(entity, user)
 
-	if enableAutoOpen then
-		-- open the stash/door
-		EasyLockpicking.Open(entity, user)
-	end
-
-	-- reward lockpicking and stealth xp
 	EasyLockpicking.RewardXP(user, skillLevel, lockDifficulty)
 
-	-- show success message
 	Game.SendInfoText("@ui_hud_lp_success", true)
+
+	if enableAutoOpen then
+		EasyLockpicking.Open(entity, user)
+	end
 end
