@@ -423,8 +423,6 @@ function Stash:OnInventoryClosed()
 end
 
 function Stash:OnUsed(user, slot)
-	dump(self)
-
 	if self.nDirection == 0 or self.bNeedUpdate == 1 then
 		return
 	end
