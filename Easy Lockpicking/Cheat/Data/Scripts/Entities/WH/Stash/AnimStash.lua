@@ -783,7 +783,6 @@ function Stash:UsesStealUiPrompt()
 	end
 
 	local ownerWuid = EntityModule.GetInventoryOwner(self.inventoryId)
-
 	if ownerWuid == nil then
 		return false
 	end
@@ -792,15 +791,5 @@ function Stash:UsesStealUiPrompt()
 		return false
 	end
 
-	local ownerEntity = XGenAIModule.GetEntityByWUID(ownerWuid)
-
-	if ownerEntity == nil then
-		return false
-	end
-
-	if ownerEntity.soul == nil then
-		return false
-	end
-
-	return not ownerEntity.soul:IsPublicEnemy()
+	return not RPG:IsPublicEnemy(ownerWuid)
 end
