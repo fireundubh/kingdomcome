@@ -403,6 +403,9 @@
 
 			<!-- Bloodletter III -->
 			<row icon_id="bloodletter" level="1" metaperk_id="" parent_id="0f6cc37c-3ff8-4f73-9a09-ca082a0d930f" perk_id="2cfb582f-f368-4ce2-8e28-feb36c73c1a8" perk_name="Bloodletter 3" perk_ui_desc="perk_bloodletter3_desc" perk_ui_name="perk_bloodletter3_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
+
+			<!-- Bloody Mess -->
+			<row icon_id="chain_strike" level="1" metaperk_id="" parent_id="" perk_id="5b48544a-cfb6-4346-aeeb-13dc4e7a3011" perk_name="Bloody Mess" perk_ui_desc="perk_bloody_mess_desc" perk_ui_name="perk_bloody_mess_name" skill_selector="2" stat_selector="" ui_priority="0" visibility="2" />
 		</rows>
 	</table>
 </database>
