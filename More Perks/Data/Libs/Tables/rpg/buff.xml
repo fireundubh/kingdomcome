@@ -51,7 +51,7 @@
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_strength_desc" buff_exclusivity_id="1" buff_id="c1fb4838-2364-46c5-bdff-d2794dbf8328" buff_lifetime_id="0" buff_name="perk_general_strength" buff_ui_name="buff_general_strength" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="47" implementation="Cpp:Constant" is_persistent="True" params="wat*1.1,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Cloak and Dagger -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_stealth_desc" buff_exclusivity_id="1" buff_id="a40ac764-94e7-43c8-a750-1e40b054e943" buff_lifetime_id="0" buff_name="perk_general_stealth" buff_ui_name="buff_general_stealth" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="48" implementation="Cpp:Constant" is_persistent="True" params="vib-10,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_stealth_desc" buff_exclusivity_id="1" buff_id="a40ac764-94e7-43c8-a750-1e40b054e943" buff_lifetime_id="0" buff_name="perk_general_stealth" buff_ui_name="buff_general_stealth" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="48" implementation="Cpp:Constant" is_persistent="True" params="fsm*0.9,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Golden Tongue -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_speech_desc" buff_exclusivity_id="1" buff_id="3d3d049e-2eea-4b4b-a86c-777c9ab2fbee" buff_lifetime_id="0" buff_name="perk_general_speech" buff_ui_name="buff_general_speech" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="49" implementation="Cpp:Constant" is_persistent="True" params="cha+2,wat*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
@@ -63,16 +63,16 @@
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_ken_desc" buff_exclusivity_id="1" buff_id="036cb344-d1d9-4426-8cb8-f2d86f5b79ae" buff_lifetime_id="0" buff_name="perk_general_ken" buff_ui_name="buff_general_ken" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="50" implementation="Cpp:Constant" is_persistent="True" params="cha+2,cap-25" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Burgher -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_burgess_desc" buff_exclusivity_id="1" buff_id="3e0867d9-cdb1-469f-a59e-e05a377b2b67" buff_lifetime_id="0" buff_name="perk_burgess" buff_ui_name="buff_burgess_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="24" implementation="Cpp:SettlementLocation" is_persistent="True" params="wat*1.1,rms*1.1,cha+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_burgess_desc" buff_exclusivity_id="1" buff_id="3e0867d9-cdb1-469f-a59e-e05a377b2b67" buff_lifetime_id="0" buff_name="perk_burgess" buff_ui_name="buff_burgess_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="24" implementation="Cpp:SettlementLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Savage -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_savage_desc" buff_exclusivity_id="1" buff_id="86879e96-f4c0-4824-bc31-c2a24567582f" buff_lifetime_id="0" buff_name="perk_savage" buff_ui_name="buff_savage_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="25" implementation="Cpp:CountrysideLocation" is_persistent="True" params="wat*1.1,rms*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_savage_desc" buff_exclusivity_id="1" buff_id="86879e96-f4c0-4824-bc31-c2a24567582f" buff_lifetime_id="0" buff_name="perk_savage" buff_ui_name="buff_savage_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="25" implementation="Cpp:CountrysideLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Infamous -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_infamous_desc" buff_exclusivity_id="1" buff_id="ab1fdda7-e59b-48aa-926f-94e19a35300c" buff_lifetime_id="0" buff_name="perk_infamous" buff_ui_name="buff_infamous_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="23" implementation="Cpp:Infamous" is_persistent="True" params="grm*2.0;bma+0.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Local Hero -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_local_hero_desc" buff_exclusivity_id="1" buff_id="0bbd5e18-1e6d-4e26-a865-e42316e0c55e" buff_lifetime_id="0" buff_name="perk_local_hero" buff_ui_name="buff_local_hero_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="22" implementation="Cpp:LocalHero" is_persistent="True" params="brm*2.0;sma-0.2,cha+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_local_hero_desc" buff_exclusivity_id="1" buff_id="0bbd5e18-1e6d-4e26-a865-e42316e0c55e" buff_lifetime_id="0" buff_name="perk_local_hero" buff_ui_name="buff_local_hero_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="22" implementation="Cpp:LocalHero" is_persistent="True" params="brm*2.0;sma-0.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 			<!-- STATS ////////////////////////////////////////////////////////////////////////////////////// -->
@@ -151,7 +151,7 @@
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="9d1ca389-f706-4e0f-9084-a0112877a13b" buff_lifetime_id="1" buff_name="perk_bard" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Highborn" is_persistent="True" params="cha+3" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Highborn III - Mummer -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="e81a7ca7-ebc3-48d8-8013-1ab6b46478f1" buff_lifetime_id="1" buff_name="perk_mummer" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="vib-10" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="e81a7ca7-ebc3-48d8-8013-1ab6b46478f1" buff_lifetime_id="1" buff_name="perk_mummer" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="vib*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 			<!-- PATH: KNIGHT ERRANT TO PERFECT KNIGHT -->
@@ -292,6 +292,9 @@
 
 			<!-- Bloodletter III -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="95c1b85f-6cf0-498b-a4ed-d9aad1a46ad8" buff_lifetime_id="1" buff_name="perk_bloodletter3" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="ain*1.05" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+
+			<!-- Bloody Mess -->
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_bloody_mess_desc" buff_exclusivity_id="1" buff_id="75e11a6d-44a0-49a5-93ba-e1a63e2fb696" buff_lifetime_id="0" buff_name="perk_bloody_mess" buff_ui_name="buff_bloody_mess_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="1" duration="8" icon_id="31" implementation="Cpp:ChainStrike" is_persistent="True" params="asp*1.2,bld*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect=""/>
 		</rows>
 	</table>
 </database>
