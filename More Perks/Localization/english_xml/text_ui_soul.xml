@@ -1,5 +1,13 @@
 <Table>
 	<Row>
+		<Cell>buff_bloody_mess_desc</Cell>
+		<Cell>An attack speed bonus due to a successful chain of strikes</Cell>
+	</Row>
+	<Row>
+		<Cell>buff_bloody_mess_name</Cell>
+		<Cell>Bloody Mess</Cell>
+	</Row>
+	<Row>
 		<Cell>perk_against_all_odds_desc</Cell>
 		<Cell>In fights where you're outnumbered, you have 20% more Strength, Agility, Warfare and Defence.</Cell>
 	</Row>
@@ -144,6 +152,14 @@
 		<Cell>Bloodletter III</Cell>
 	</Row>
 	<Row>
+		<Cell>perk_bloody_mess_desc</Cell>
+		<Cell>Each blow in an uninterrupted chain increases your attack speed and bloodiness by 20%. Any interruption cancels the bonus.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloody_mess_name</Cell>
+		<Cell>Bloody Mess</Cell>
+	</Row>
+	<Row>
 		<Cell>perk_boar_desc</Cell>
 		<Cell>You deplete an opponent's Health and Stamina by sprinting into him. The effect is increased when your armour is heavier than his.</Cell>
 	</Row>
@@ -169,7 +185,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_burgess_desc</Cell>
-		<Cell>In urban locales, you deal 10% more damage, sprint 10% faster, and, in conversations, you have +1 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
+		<Cell>In urban locales, you deal 10% more damage and move 20% faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_burgess_name</Cell>
@@ -201,7 +217,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_charlatan_desc</Cell>
-		<Cell>When you perform dastardly deeds, your reputation falls 20% slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Rogue</Cell>
+		<Cell>When you perform dastardly deeds, your reputation falls 20% slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Rogue&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_charlatan_name</Cell>
@@ -502,7 +518,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_guildsman_desc</Cell>
-		<Cell>You're a made guy. You recover from jail time 20% faster than your more fragile peers.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thug</Cell>
+		<Cell>You're a made guy. You recover from jail time 20% faster than your more fragile peers.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thug&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_guildsman_name</Cell>
@@ -730,7 +746,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_knighterrant_desc</Cell>
-		<Cell>You're more threatening when interacting with nobles and wealthy people.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Highborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Bard</Cell>
+		<Cell>You're more threatening when interacting with nobles and wealthy people.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Highborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Bard&lt;br/&gt;- Infamous</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_knighterrant_name</Cell>
@@ -810,7 +826,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_local_hero_desc</Cell>
-		<Cell>With a high reputation, traders offer you a 20% discount and you gain +1 Charisma in conversations, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+		<Cell>With a high reputation, traders offer you a 20% discount, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_local_hero_name</Cell>
@@ -963,7 +979,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_mummer_desc</Cell>
-		<Cell>You know well the art of the disguise. You're less likely to be seen by those who you'd rather not see you.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bard</Cell>
+		<Cell>You know well the art of the disguise. You're 10% less likely to be seen by those who you'd rather not see you.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bard&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_mummer_name</Cell>
@@ -1003,7 +1019,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_perfect_knight_desc</Cell>
-		<Cell>When you perform good deeds, your reputation rises 20% faster. Veritas vincit.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Knight Errant</Cell>
+		<Cell>When you perform good deeds, your reputation rises 20% faster. Veritas vincit.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Knight Errant&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_perfect_knight_name</Cell>
@@ -1159,7 +1175,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_ruffian_desc</Cell>
-		<Cell>You're more threatening when interacting with commoners.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Lowborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Rogue</Cell>
+		<Cell>You're more threatening when interacting with commoners.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Lowborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero&lt;br/&gt;- Rogue</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_ruffian_name</Cell>
@@ -1207,7 +1223,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_savage_desc</Cell>
-		<Cell>In the wilds, you deal 10% more damage and sprint 10% faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
+		<Cell>In the wilds, you deal 10% more damage and move 20% faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_savage_name</Cell>
@@ -1215,7 +1231,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_scout_1_desc</Cell>
-		<Cell>You gain a 10% greater chance to evade and you can see Fast Travel destinations slightly farther away than normal.</Cell>
+		<Cell>You gain a 10% greater chance to evade when you encounter random events and you can see Fast Travel destinations slightly farther away than normal.</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_scout_1_name</Cell>
@@ -1223,7 +1239,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_scout_2_desc</Cell>
-		<Cell>You gain a 20% greater chance to evade and you can see Fast Travel destinations even farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout I</Cell>
+		<Cell>You gain a 20% greater chance to evade when you encounter random events and you can see Fast Travel destinations even farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout I</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_scout_2_name</Cell>
@@ -1231,7 +1247,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_scout_3_desc</Cell>
-		<Cell>You gain a 30% greater chance to evade and you can see Fast Travel destinations significantly farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout II</Cell>
+		<Cell>You gain a 30% greater chance to evade when you encounter random events and you can see Fast Travel destinations significantly farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout II</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_scout_3_name</Cell>
@@ -1371,7 +1387,7 @@
 	</Row>
 	<Row>
 		<Cell>perk_stealth_desc</Cell>
-		<Cell>You're accustomed to skulking about in the shadows, but all that time spent avoiding contact cost you -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
+		<Cell>You're 10% quieter when walking and running, but all that time spent in the shadows cost you -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
 	</Row>
 	<Row>
 		<Cell>perk_stealth_kill_desc</Cell>

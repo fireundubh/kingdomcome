@@ -214,6 +214,9 @@
 
             <!-- Bloodletter III -->
             <row buff_id="95c1b85f-6cf0-498b-a4ed-d9aad1a46ad8" perk_id="2cfb582f-f368-4ce2-8e28-feb36c73c1a8" />
+
+            <!-- Bloody Mess -->
+            <row buff_id="75e11a6d-44a0-49a5-93ba-e1a63e2fb696" perk_id="5b48544a-cfb6-4346-aeeb-13dc4e7a3011" />
         </rows>
     </table>
 </database>
