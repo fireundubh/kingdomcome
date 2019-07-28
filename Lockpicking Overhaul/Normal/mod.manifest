@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcd_mod>
+  <info>
+    <name>Lockpicking Overhaul - Normal</name>
+    <description>Instantly unlock and open locked doors and stashes at your skill level, and attempt more difficult locks through the minigame</description>
+    <author>fireundubh</author>
+    <version>1.9.7.1</version>
+    <created_on>13 Feb 2018</created_on>
+  </info>
+</kcd_mod>
