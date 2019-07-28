@@ -32,6 +32,11 @@ Trainers.__data__ =
 			price = { 1800, 5400, 16200, 48600 }
 		},
 
+		['houndmaster'] =
+		{
+			price = { 1800, 5400, 16200, 48600 }
+		},
+
 		['hunter'] =
 		{
 			price = { 1800, 5400, 16200, 48600 }
@@ -146,6 +151,13 @@ end
 
 function Trainers.exp_meetsLevelRequirementToTrainLesson(tier)
 	return 1
+end
+
+function Trainers.exp_maximumSkillReached()
+	local skill = Trainers.getContextSkill()
+	local level = player.soul:GetSkillLevel(skill)
+	local maxLevel = RPG.SkillCap
+	return pick(level >= maxLevel, 1, 0)
 end
 
 function Trainers.calcLessonPrice(tier)
