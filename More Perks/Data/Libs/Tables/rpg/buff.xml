@@ -57,16 +57,16 @@
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_speech_desc" buff_exclusivity_id="1" buff_id="3d3d049e-2eea-4b4b-a86c-777c9ab2fbee" buff_lifetime_id="0" buff_name="perk_general_speech" buff_ui_name="buff_general_speech" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="49" implementation="Cpp:Constant" is_persistent="True" params="cha+2,wat*0.9" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Juggler -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_juggler_desc" buff_exclusivity_id="1" buff_id="bc64bdea-4444-4308-ae54-5e5f268d25f6" buff_lifetime_id="0" buff_name="perk_juggler" buff_ui_name="buff_juggler" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="dsl*1.1,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_juggler_desc" buff_exclusivity_id="1" buff_id="bc64bdea-4444-4308-ae54-5e5f268d25f6" buff_lifetime_id="0" buff_name="perk_juggler" buff_ui_name="buff_juggler" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="0" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="dsl*1.1,cha-2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Ken -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_general_ken_desc" buff_exclusivity_id="1" buff_id="036cb344-d1d9-4426-8cb8-f2d86f5b79ae" buff_lifetime_id="0" buff_name="perk_general_ken" buff_ui_name="buff_general_ken" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="50" implementation="Cpp:Constant" is_persistent="True" params="cha+2,cap-25" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Burgher -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_burgess_desc" buff_exclusivity_id="1" buff_id="3e0867d9-cdb1-469f-a59e-e05a377b2b67" buff_lifetime_id="0" buff_name="perk_burgess" buff_ui_name="buff_burgess_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="24" implementation="Cpp:SettlementLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_burgess_desc" buff_exclusivity_id="1" buff_id="3e0867d9-cdb1-469f-a59e-e05a377b2b67" buff_lifetime_id="0" buff_name="perk_burgess" buff_ui_name="buff_burgess_name" buff_ui_order="220" buff_ui_type_id="4" buff_ui_visibility_id="1" duration="-1" icon_id="24" implementation="Cpp:SettlementLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Savage -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_savage_desc" buff_exclusivity_id="1" buff_id="86879e96-f4c0-4824-bc31-c2a24567582f" buff_lifetime_id="0" buff_name="perk_savage" buff_ui_name="buff_savage_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="25" implementation="Cpp:CountrysideLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_savage_desc" buff_exclusivity_id="1" buff_id="86879e96-f4c0-4824-bc31-c2a24567582f" buff_lifetime_id="0" buff_name="perk_savage" buff_ui_name="buff_savage_name" buff_ui_order="220" buff_ui_type_id="4" buff_ui_visibility_id="1" duration="-1" icon_id="25" implementation="Cpp:CountrysideLocation" is_persistent="True" params="wat*1.1,rms*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Infamous -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_infamous_desc" buff_exclusivity_id="1" buff_id="ab1fdda7-e59b-48aa-926f-94e19a35300c" buff_lifetime_id="0" buff_name="perk_infamous" buff_ui_name="buff_infamous_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="2" duration="-1" icon_id="23" implementation="Cpp:Infamous" is_persistent="True" params="grm*2.0;bma+0.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
@@ -122,7 +122,7 @@
 			<!-- ============================================================================================ -->
 
 			<!-- Balanced Diet -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_proper_diet_desc" buff_exclusivity_id="1" buff_id="5d669fd1-0f36-4e30-95b8-1b5e53fac46e" buff_lifetime_id="0" buff_name="perk_proper_diet" buff_ui_name="buff_proper_diet_name" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="27" implementation="Cpp:ProperDiet" is_persistent="True" params="mst*1.2,dsl*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="buff_proper_diet_desc" buff_exclusivity_id="1" buff_id="5d669fd1-0f36-4e30-95b8-1b5e53fac46e" buff_lifetime_id="0" buff_name="perk_proper_diet" buff_ui_name="buff_proper_diet_name" buff_ui_order="210" buff_ui_type_id="4" buff_ui_visibility_id="3" duration="-1" icon_id="27" implementation="Cpp:ProperDiet" is_persistent="True" params="mst*1.2,dsl*1.1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Revenant II -->
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="7cf3df96-fbf1-4169-a72e-3d2e0f600d92" buff_lifetime_id="1" buff_name="perk_revenant2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="health+0.125/s" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
@@ -195,7 +195,7 @@
 			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="42d4e801-27b9-4130-9af5-11b50b283377" buff_lifetime_id="1" buff_name="perk_venomous_blade2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Constant" is_persistent="True" params="wbc*1.2" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
 
 			<!-- Witcher II -->
-			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="8e6fdf99-b127-4d8e-a24b-92876a57ceae" buff_lifetime_id="1" buff_name="perk_witcher2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Night" is_persistent="True" params="owl+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="" />
+			<row buff_ai_tag_id="" buff_class_id="4" buff_desc="" buff_exclusivity_id="1" buff_id="8e6fdf99-b127-4d8e-a24b-92876a57ceae" buff_lifetime_id="1" buff_name="perk_witcher2" buff_ui_name="" buff_ui_order="" buff_ui_type_id="4" buff_ui_visibility_id="" duration="-1" icon_id="0" implementation="Cpp:Night" is_persistent="True" params="owl+1" slot_buff_ui_name="" slot_icon_id="" visual_effect="player_owl" />
 
 			<!-- ============================================================================================ -->
 			<!-- DRINKING PERKS -->

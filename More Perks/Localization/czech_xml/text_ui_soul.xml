@@ -1,0 +1,1789 @@
+<Table>
+	<Row>
+		<Cell>buff_bloody_mess_desc</Cell>
+		<Cell>An attack speed bonus due to a successful chain of strikes</Cell>
+	</Row>
+	<Row>
+		<Cell>buff_bloody_mess_name</Cell>
+		<Cell>Bloody Mess</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_against_all_odds_desc</Cell>
+		<Cell>In fights where you're outnumbered, you have 20% more Strength, Agility, Warfare and Defence.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_against_all_odds_name</Cell>
+		<Cell>Against All Odds</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_anatomist_desc</Cell>
+		<Cell>You've learned enough about wild animals to deal 10% more damage to them.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_anatomist_name</Cell>
+		<Cell>Anatomist</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_animal_in_heart_desc</Cell>
+		<Cell>Wild animals are less skittish when you're close.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_animal_in_heart_name</Cell>
+		<Cell>Wild at Heart</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_antlers_desc</Cell>
+		<Cell>You can extract antlers from game.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_antlers_name</Cell>
+		<Cell>Antlers</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_arabian_blood_desc</Cell>
+		<Cell>Your horse gallops faster, but it won't be able to carry so much.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_arabian_blood_name</Cell>
+		<Cell>Arabian Blood</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_art_admirer_desc</Cell>
+		<Cell>When you first set your eyes upon a fresco, cross, or wayside shrine, you temporarily gain +2 Charisma.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_art_admirer_name</Cell>
+		<Cell>Art Connoisseur</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ascetic_desc</Cell>
+		<Cell>You last 30% longer without food, but when you hunger, the effects are 20% worse.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ascetic_name</Cell>
+		<Cell>Ascetic</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_avid_reader_desc</Cell>
+		<Cell>Your study progress of your most read book advances automatically while sleeping or waiting.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_avid_reader_name</Cell>
+		<Cell>Avid Reader</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bacchus_desc</Cell>
+		<Cell>You can't drink yourself to oblivion, but your hangover's always 30% worse.&lt;br/&gt;&lt;br/&gt;Incompatible: Safe Passage</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bacchus_name</Cell>
+		<Cell>Bacchus</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bailman_desc</Cell>
+		<Cell>You're able to unhorse opponents.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bailman_name</Cell>
+		<Cell>Bailman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bard_desc</Cell>
+		<Cell>You gain +3 Charisma when talking to nobles and wealthy people.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Highborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Knight Errant</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bard_name</Cell>
+		<Cell>Bard</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_beerbibber_desc</Cell>
+		<Cell>Beer is 50% weaker for you, so drink up! But wine is twice as strong and will get you drunk faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Wine Bibber</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_beerbibber_name</Cell>
+		<Cell>Beer Bibber</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_berserk_desc</Cell>
+		<Cell>When your Health falls to a minimum, you go berserk and your Stamina regenerates 400% faster.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_berserk_name</Cell>
+		<Cell>Berserk</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_blacksmithsson_desc</Cell>
+		<Cell>Weapons you repair deal 10% more damage until they get too damaged.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_blacksmithsson_name</Cell>
+		<Cell>Blacksmith's Son</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_blood_rush_desc</Cell>
+		<Cell>After beating your first opponent, you deal 10% more damage and your Stamina regenerates +20% faster.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_blood_rush_name</Cell>
+		<Cell>Blood Rush</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter_desc</Cell>
+		<Cell>You're 15% more likely to draw blood in combat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter_name</Cell>
+		<Cell>Bloodletter I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter2_desc</Cell>
+		<Cell>You're 20% more likely to draw blood in combat.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bloodletter I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter2_name</Cell>
+		<Cell>Bloodletter II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter3_desc</Cell>
+		<Cell>You're 25% more likely to draw blood in combat.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bloodletter II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloodletter3_name</Cell>
+		<Cell>Bloodletter III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloody_mess_desc</Cell>
+		<Cell>Each blow in an uninterrupted chain increases your attack speed and bloodiness by 20%. Any interruption cancels the bonus.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bloody_mess_name</Cell>
+		<Cell>Bloody Mess</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_boar_desc</Cell>
+		<Cell>You deplete an opponent's Health and Stamina by sprinting into him. The effect is increased when your armour is heavier than his.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_boar_name</Cell>
+		<Cell>Boar</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_botanicus_desc</Cell>
+		<Cell>Traders pay 15% more for the herbs you sell.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_botanicus_name</Cell>
+		<Cell>Botanist</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bundle_alchemyst_desc</Cell>
+		<Cell>When you successfully brew a potion, you get one extra.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Does not apply to autobrew</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_bundle_alchemyst_name</Cell>
+		<Cell>Bundle Alchemist</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_burgess_desc</Cell>
+		<Cell>In urban locales, you deal 10% more damage and move 20% faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Savage</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_burgess_name</Cell>
+		<Cell>Burgher</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_butcher_desc</Cell>
+		<Cell>You can harvest offal from game.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_butcher_name</Cell>
+		<Cell>Butcher</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cartographer_desc</Cell>
+		<Cell>The whole map is revealed to you, showing all settlements, hunting spots, and caves.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cartographer_name</Cell>
+		<Cell>Cartographer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_chain_strike_desc</Cell>
+		<Cell>Each blow in an uninterrupted chain hurts your opponent more than the previous one. Any interruption cancels the bonus.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_chain_strike_name</Cell>
+		<Cell>Chain Strike</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_charlatan_desc</Cell>
+		<Cell>When you perform dastardly deeds, your reputation falls 20% slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Rogue&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_charlatan_name</Cell>
+		<Cell>Charlatan</Cell>
+		<Cell>Charlatan</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_clinch_master_desc</Cell>
+		<Cell>In a clinch, you're 40% more likely to overpower your opponent.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_clinch_master_name</Cell>
+		<Cell>Clinch Master I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_clinch_master2_desc</Cell>
+		<Cell>In a clinch, you're 60% more likely to overpower your opponent.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Clinch Master I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_clinch_master2_name</Cell>
+		<Cell>Clinch Master II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_colleague_desc</Cell>
+		<Cell>Traders sell books to you at a 20% discount.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_colleague_name</Cell>
+		<Cell>Colleague</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_comrade_desc</Cell>
+		<Cell>You gain a greater chance to pickpocket targets who are dressed like you.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_comrade_name</Cell>
+		<Cell>Comrade</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_contemplative_desc</Cell>
+		<Cell>You no longer tire or hunger when you remain still.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_contemplative_name</Cell>
+		<Cell>Contemplative</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_crouching_chameleon_desc</Cell>
+		<Cell>When crouching without movement, you're 30% stealthier.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_crouching_chameleon_name</Cell>
+		<Cell>Crouching Chameleon</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_crowd_control_desc</Cell>
+		<Cell>You've learned how to work the crowd, reducing your chance of being discovered.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_crowd_control_name</Cell>
+		<Cell>Crowd Control</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cuman_in_killer</Cell>
+		<Cell>You've earned a fearsome reputation among Cumans. They are 50% more likely to flee from combat, and you deal 20% more damage to them.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cuman_nm_killer</Cell>
+		<Cell>Cuman Slayer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cushion_desc</Cell>
+		<Cell>When you're sitting comfortably, you gain a 200% reading bonus.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_cushion_name</Cell>
+		<Cell>Cushion</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_daring_debonair_desc</Cell>
+		<Cell>After committing a crime, you gain +1 Strength and Vitality until you're caught or leave the scene of the crime.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_daring_debonair_name</Cell>
+		<Cell>Daring Debonair</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dodger_desc</Cell>
+		<Cell>You can jump aside during combat. Bob and weave. Bob and weave.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dodger_name</Cell>
+		<Cell>Dodger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dog_person_desc</Cell>
+		<Cell>Dogs won't bark at you.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dog_person_name</Cell>
+		<Cell>Dog Person</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dread_steed_desc</Cell>
+		<Cell>Your horse gallops faster when wounded.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dread_steed_name</Cell>
+		<Cell>Dread Steed</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dreadful_desc</Cell>
+		<Cell>Your enemies are more likely to flee from combat, and those who remain are less determined.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_dreadfull_name</Cell>
+		<Cell>Dreadful</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_drinking_habit_desc</Cell>
+		<Cell>While under the influence, your hand shakes 25% less and you gain +2 to your Bow skill, but while sober, your hand shakes 25% more.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_drinking_habit_name</Cell>
+		<Cell>Drinking Habit</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_drunk_desc</Cell>
+		<Cell>You enjoy the benefits of alcohol for twice as long and suffer no ill effects, but while sober, your hangover lasts twice as long.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_drunk_name</Cell>
+		<Cell>Drunk</Cell>
+		<Cell>Drunk</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_easy_way_out_desc</Cell>
+		<Cell>Your agile fingers move through your target's pockets twice as fast.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_easy_way_out_name</Cell>
+		<Cell>Easy Way Out</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_educated_desc</Cell>
+		<Cell>While reading, you gain +3 Reading, but once you leave your ivory tower, you're not as equipped for the real world as you should be. You lose -1 Strength and Warfare.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_educated_name</Cell>
+		<Cell>Scholar</Cell>
+		<Cell>Scholar</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_empathic_desc</Cell>
+		<Cell>You've a good sense of what people want to hear. In conversations, you can see your counterpart's speech stats.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_empathic_name</Cell>
+		<Cell>Empathetic</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_et_tu_brutus_desc</Cell>
+		<Cell>Your rear attacks are a third stronger.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_et_tu_brutus_name</Cell>
+		<Cell>Et Tu, Brute</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker_desc</Cell>
+		<Cell>Your attacks cost 30% less Stamina, but you deal 10% less damage.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Heavy Swing</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker_name</Cell>
+		<Cell>Fast Striker I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker2_desc</Cell>
+		<Cell>Your attacks cost 40% less Stamina, but you deal 20% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker2_name</Cell>
+		<Cell>Fast Striker II</Cell>
+		<Cell>Fast Striker II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker3_desc</Cell>
+		<Cell>Your attacks cost 50% less Stamina, but you deal 30% less damage.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Fast Striker II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Agility weapons</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fast_striker3_name</Cell>
+		<Cell>Fast Striker III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_feint_desc</Cell>
+		<Cell>You can perform feints in combat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_feint_name</Cell>
+		<Cell>Feint</Cell>
+		<Cell>Feint</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip_desc</Cell>
+		<Cell>Blocking an opponent's strikes with your shield costs him 15% more Stamina.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip_name</Cell>
+		<Cell>Firm Grip I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip2_desc</Cell>
+		<Cell>Blocking an opponent's strikes with your shield costs him 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Firm Grip I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip2_name</Cell>
+		<Cell>Firm Grip II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip3_desc</Cell>
+		<Cell>Blocking an opponent's strikes with your shield costs him 25% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Firm Grip II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_film_grip3_name</Cell>
+		<Cell>Firm Grip III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_I_desc</Cell>
+		<Cell>It only took an arrow to the knee, but you've finally learned how to bandage your injuries.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_I_name</Cell>
+		<Cell>First Aid I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_II_desc</Cell>
+		<Cell>Bandages are 25% more effective. You can also apply your healing skill in conversations.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_II_name</Cell>
+		<Cell>First Aid II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_III_desc</Cell>
+		<Cell>Bandages are 50% more effective. For a blacksmith's boy, you're quite the sawbones. This perk opens the most advanced healing options in conversations.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_first_aid_III_name</Cell>
+		<Cell>First Aid III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_flower_power_desc</Cell>
+		<Cell>With enough fragrant herbs on you, you gain +2 Charisma.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_flower_power_name</Cell>
+		<Cell>Flower Power</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_forester_desc</Cell>
+		<Cell>In the woods, you're 50% less conspicuous and visible.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_forester_name</Cell>
+		<Cell>Forester</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fragrance_desc</Cell>
+		<Cell>With freshly laundered clothes on, you gain +1 Charisma for one day.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_fragrance_name</Cell>
+		<Cell>Fragrant</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_furious_desc</Cell>
+		<Cell>The less your maximum Stamina, the greater injury you cause.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_furious_name</Cell>
+		<Cell>Furious</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_glissade_desc</Cell>
+		<Cell>Your armour and shields suffer 20% less wear and tear in combat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_glissade_name</Cell>
+		<Cell>Glissade</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_gravedigger_desc</Cell>
+		<Cell>Carrying the dead or unconscious costs you no Stamina and burdens you only half as much.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_gravedigger_name</Cell>
+		<Cell>Gravedigger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_guildsman_desc</Cell>
+		<Cell>You're a made guy. You recover from jail time 20% faster than your more fragile peers.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thug&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_guildsman_name</Cell>
+		<Cell>Guildsman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_generic_desc</Cell>
+		<Cell>You practice your Speech skill whenever you haggle.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_generic_name</Cell>
+		<Cell>Negotiator</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_reputation_desc</Cell>
+		<Cell>Traders respect your business. You have a greater reputation with traders, and when you have a low reputation, they may still trade with you.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_reputation_name</Cell>
+		<Cell>Amiable Customer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_secondChance_desc</Cell>
+		<Cell>When a trader loses patience with you during negotiation, you get one more chance to make another offer.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_haggle_secondChance_name</Cell>
+		<Cell>Final Offer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer_desc</Cell>
+		<Cell>You gain a 10% greater chance of knocking out an opponent with a blow to the head.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer_name</Cell>
+		<Cell>Headcracker I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer2_desc</Cell>
+		<Cell>You gain a 20% greater chance of knocking out an opponent with a blow to the head.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Headcracker I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer2_name</Cell>
+		<Cell>Headcracker II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer3_desc</Cell>
+		<Cell>You gain a 30% greater chance of knocking out an opponent with a blow to the head.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Headcracker II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_headcrakcer3_name</Cell>
+		<Cell>Headcracker III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing_desc</Cell>
+		<Cell>You deal 20% more damage but your attacks cost 10% more Stamina.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Fast Striker</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing_name</Cell>
+		<Cell>Heavy Swing I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing2_desc</Cell>
+		<Cell>You deal 40% more damage but your attacks cost 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing I&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing2_name</Cell>
+		<Cell>Heavy Swing II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing3_desc</Cell>
+		<Cell>You deal 60% more damage but your attacks cost 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Heavy Swing II&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Strength weapons</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_swing3_name</Cell>
+		<Cell>Heavy Swing III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_tip_desc</Cell>
+		<Cell>A weapon you've sharpened yourself deals 15% more damage to your opponent's equipment.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavy_tip_name</Cell>
+		<Cell>Tin Opener</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavyduty_pony_desc</Cell>
+		<Cell>Your horse can carry more at the expense of speed.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Racehorse</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_heavyduty_pony_name</Cell>
+		<Cell>Heavy Duty Pony</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_hidden_pockets_desc</Cell>
+		<Cell>When arrested and searched, you'll keep some stolen items in your inventory.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_hidden_pockets_name</Cell>
+		<Cell>Hidden Pockets</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_highborn_desc</Cell>
+		<Cell>You gain +3 Speech when talking to nobles and wealthy people.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Lowborn</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_highborn_name</Cell>
+		<Cell>Highborn</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_horsenip_desc</Cell>
+		<Cell>With enough fragrant herbs in your saddlebag, your horse shies less.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_horsenip_name</Cell>
+		<Cell>Horsenip</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_human_dustbin_desc</Cell>
+		<Cell>You dispel hunger with anything. You don't suffer ill effects from eating poisoned or spoiled food, but you don't experience any positive effects either.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Does not apply to alcohol</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_human_dustbin_name</Cell>
+		<Cell>Human Dustbin</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_hunting_permit_name</Cell>
+		<Cell>Gamekeeper Rules the Woods</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_huntsman_desc</Cell>
+		<Cell>You deal 20% more damage to wild animals.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_huntsman_name</Cell>
+		<Cell>Huntsman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_in_the_flow_desc</Cell>
+		<Cell>When reading, you get tired and hungry twice as slowly as normal.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_in_the_flow_name</Cell>
+		<Cell>In the Flow</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_infamous_desc</Cell>
+		<Cell>With a low reputation, traders cough up 20% more for the goods you "sell" them, but your reputation rises twice as fast when you perform good deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_infamous_name</Cell>
+		<Cell>Infamous</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_insomniac_desc</Cell>
+		<Cell>You'll sleep when you're dead. Your Energy falls 25% slower.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_insomniac_name</Cell>
+		<Cell>Insomniac</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_intimidating_posture</Cell>
+		<Cell>Golem</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_intimidating_posture_desc</Cell>
+		<Cell>Your armour is a third more frightening than usual.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_item_expert_1_desc</Cell>
+		<Cell>Reveals stats for half the items in your target's purse.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_item_expert_1_name</Cell>
+		<Cell>Item Expert I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_item_expert_2_desc</Cell>
+		<Cell>Reveals stats for all items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Item Expert I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_item_expert_2_name</Cell>
+		<Cell>Item Expert II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_jockey_desc</Cell>
+		<Cell>Your horse never throws you outside of combat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_jockey_name</Cell>
+		<Cell>Jockey</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_juggler_desc</Cell>
+		<Cell>You're supple and agile, but turning somersaults and falling on your head left their mark. You can dodge 10% more easily, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Cloak and Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_juggler_name</Cell>
+		<Cell>Juggler</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ken_desc</Cell>
+		<Cell>You're as handsome as you are charismatic, but you're not as strong. You gain +2 Charisma, but your Carrying Capacity is reduced by 25.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Brute&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ken_name</Cell>
+		<Cell>Ken</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knigh_in_shining_desc</Cell>
+		<Cell>In sunny weather, the glint of your armour dazzles everyone around you, and you're taken for a noble knight. You gain +4 Charisma.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knigh_in_shining_name</Cell>
+		<Cell>Knight in Shining Armour</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knight_desc</Cell>
+		<Cell>You deal 15% more damage in mounted combat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knight_name</Cell>
+		<Cell>Knight</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knighterrant_desc</Cell>
+		<Cell>You're more threatening when interacting with nobles and wealthy people.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Highborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Bard&lt;br/&gt;- Infamous</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_knighterrant_name</Cell>
+		<Cell>Knight Errant</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_last_gasp_desc</Cell>
+		<Cell>Once per encounter, you survive a fatal blow and regenerate 20% of your health.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_last_gasp_name</Cell>
+		<Cell>Last Gasp</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lasting_lockpicks_desc</Cell>
+		<Cell>Your lockpicks are more durable and last twice as long.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lasting_lockpicks_name</Cell>
+		<Cell>Lasting Lockpicks</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_leg_day_desc</Cell>
+		<Cell>You gain +1 Strength XP when you pick herbs.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_leg_day_name</Cell>
+		<Cell>Leg Day</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_letailleur_desc</Cell>
+		<Cell>Every item of clothing you're wearing that you've repaired yourself adds 0.5 to Charisma, up to a maximum bonus of +2.&lt;br/&gt;&lt;br/&gt;Restrictions:&lt;br/&gt;- Does not apply to armour</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_letailleur_name</Cell>
+		<Cell>Saville Row</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_light_armor_desc</Cell>
+		<Cell>When not wearing plate armour, you can dodge 50% more easily.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_light_armor_name</Cell>
+		<Cell>Light Armour</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather_desc</Cell>
+		<Cell>You suffer 30% less damage from falling.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather_name</Cell>
+		<Cell>Featherweight I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather2_desc</Cell>
+		<Cell>You suffer 50% less damage from falling.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Featherweight I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather2_name</Cell>
+		<Cell>Featherweight II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather3_desc</Cell>
+		<Cell>You suffer 75% less damage from falling.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Featherweight II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_like_a_feather3_name</Cell>
+		<Cell>Featherweight III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_liquorbibber_desc</Cell>
+		<Cell>Spirits are 50% weaker for you, so you can drink more.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_liquorbibber_name</Cell>
+		<Cell>Top Shelf</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_local_hero_desc</Cell>
+		<Cell>With a high reputation, traders offer you a 20% discount, but your reputation falls twice as fast when you perform bad deeds.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_local_hero_name</Cell>
+		<Cell>Local Hero</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lock_knack_desc</Cell>
+		<Cell>You have a knack for picking locks. The starting position of your lockpick is closer to the end of the lock, making it easier to open.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lock_knack_name</Cell>
+		<Cell>Deft Grip</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lock_lucky_desc</Cell>
+		<Cell>When your lockpick breaks, you have a 10% chance of opening the lock instantly.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lock_lucky_name</Cell>
+		<Cell>Lucky Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lockpickers_knack</Cell>
+		<Cell>Lockpicker's Knack</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_loose_tongue_desc</Cell>
+		<Cell>When drunk, you gain +50% Speech and Charisma, but while hungover, these stats drop by half.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_loose_tongue_name</Cell>
+		<Cell>Loose Lips</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lowborn_desc</Cell>
+		<Cell>You gain +3 Speech while talking to commoners.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Highborn</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lowborn_name</Cell>
+		<Cell>Lowborn</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_luck_of_the_drunk_desc</Cell>
+		<Cell>When drunk, locks are 30% easier to pick but you're 30% noisier picking them, too.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_luck_of_the_drunk_name</Cell>
+		<Cell>Luck of the Drunk</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_lucky_thief</Cell>
+		<Cell>Lucky Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_1_desc</Cell>
+		<Cell>When trying to persuade guards, you gain +1 Speech.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_1_name</Cell>
+		<Cell>Magistrate I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_2_desc</Cell>
+		<Cell>When trying to persuade guards, you gain +2 Speech.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Magistrate I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_2_name</Cell>
+		<Cell>Magistrate II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_3_desc</Cell>
+		<Cell>When trying to persuade guards, you gain +3 Speech.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Magistrate II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_magister_3_name</Cell>
+		<Cell>Magistrate III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_manly_odour_desc</Cell>
+		<Cell>You dirty dog. Women find you irresistible when you're filthy, but you're 30% less stealthy. People can smell you coming.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_manly_odour_name</Cell>
+		<Cell>Manly Odour</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_marathon_man_desc</Cell>
+		<Cell>You sprint 20% slower, but you can run farther by expending 20% less Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Sprinter</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_marathon_man_name</Cell>
+		<Cell>Marathon Man</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief2_desc</Cell>
+		<Cell>You can unlock Hard locks automatically.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Adept Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief2_name</Cell>
+		<Cell>Expert Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief3_desc</Cell>
+		<Cell>You can unlock Very Hard locks automatically.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Expert Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief3_name</Cell>
+		<Cell>Master Thief</Cell>
+		<Cell>Master Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief_desc</Cell>
+		<Cell>You can unlock Very Easy and Easy locks automatically.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_master_thief_name</Cell>
+		<Cell>Adept Thief</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_merchants_wit_desc</Cell>
+		<Cell>You've a gift. When you haggle, you gain Speech XP.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_merchants_wit_name</Cell>
+		<Cell>Silver Tongue</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_mule_1_name</Cell>
+		<Cell>Mule I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_mule_2_name</Cell>
+		<Cell>Mule II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_mule_3_name</Cell>
+		<Cell>Mule III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_muler_1_desc</Cell>
+		<Cell>You can carry 15 more pounds.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_muler_2_desc</Cell>
+		<Cell>You can carry 20 more pounds.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_muler_3_desc</Cell>
+		<Cell>You can carry 25 more pounds.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_mummer_desc</Cell>
+		<Cell>You know well the art of the disguise. You're 10% less likely to be seen by those who you'd rather not see you.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Bard&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_mummer_name</Cell>
+		<Cell>Mummer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_night_rider_desc</Cell>
+		<Cell>Your Stamina regenerates 20% faster at night but 10% slower during the day.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_night_rider_name</Cell>
+		<Cell>Night Rider</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ordinary_mug_desc</Cell>
+		<Cell>When you're wanted, you're less likely to be recognised and people stop looking for you sooner.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ordinary_mug_name</Cell>
+		<Cell>Ordinary Mug</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_padding_desc</Cell>
+		<Cell>When you repair your own armour, you add a bit of padding to reduce the noise you make.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_padding_name</Cell>
+		<Cell>Stuffing</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_block_desc</Cell>
+		<Cell>You've learned to fend off blows with well-timed blocks. You'll know exactly when to block from the appearance of a green shield in the middle of the combat rose:&amp;lt;br/&amp;gt;&amp;lt;img src='img://Libs/UI/Textures/Dynamic/ccursorPerfectblock.dds' width='79' height='74'&amp;gt;&amp;lt;br/&amp;gt;This block costs you no stamina! &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;If, while executing the Perfect Block, you also hit the Strike button, you'll execute an immediate &amp;lt;font color='#512D00'&amp;gt;riposte&amp;lt;/font&amp;gt;. Your opponent can only defend against a riposte by means of a Perfect Block, and you can also use the same defence if the tables are turned.:&amp;lt;br/&amp;gt; :&amp;lt;br/&amp;gt;Executing Perfect Blocks and Ripostes demonstrates superior swordsmanship, which can also intimidate a less experienced foe.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_block_name</Cell>
+		<Cell>Perfect Block</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_knight_desc</Cell>
+		<Cell>When you perform good deeds, your reputation rises 20% faster. Veritas vincit.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Knight Errant&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Infamous</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_knight_name</Cell>
+		<Cell>Perfect Knight</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_throw_desc</Cell>
+		<Cell>You have a better chance of throwing winning dice.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_perfect_throw_name</Cell>
+		<Cell>Perfect Throw</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_1_desc</Cell>
+		<Cell>Immediately reveals one item in your target's purse.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_1_name</Cell>
+		<Cell>Pocket Sight I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_2_desc</Cell>
+		<Cell>Immediately reveals three items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Pocket Sight I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_2_name</Cell>
+		<Cell>Pocket Sight II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_3_desc</Cell>
+		<Cell>Immediately reveals all items in your target's purse.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Pocket Sight II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_pocket_sight_3_name</Cell>
+		<Cell>Pocket Sight III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_proper_diet_desc</Cell>
+		<Cell>When you don't overeat or starve for 5 consecutive days, you gain +20% Stamina and you can evade attacks 10% more easily.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_proper_diet_name</Cell>
+		<Cell>Balanced Diet</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rain_man_desc</Cell>
+		<Cell>You move almost silently in the rain. The noise of your footsteps is reduced by 70%.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rain_man_name</Cell>
+		<Cell>Rain Man</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_renegade_brand_desc</Cell>
+		<Cell>You're no stranger to doing time. When you're released, you come out with 20% more Strength, Vitality, and Agility than novices would.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_renegade_brand_name</Cell>
+		<Cell>Renegade Brand</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_repairman_desc</Cell>
+		<Cell>After successfully picking a lock, you have a 20% chance of repairing broken lockpicks.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_repairman_name</Cell>
+		<Cell>Repairman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_resistance_desc</Cell>
+		<Cell>You've collected such a quantity of poisonous herbs or nettles that your Vitality is permanently increased by +2.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_resistance_name</Cell>
+		<Cell>Resistance</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant_desc</Cell>
+		<Cell>Your health regenerates gradually. (0.125 health/s)</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant_name</Cell>
+		<Cell>Revenant I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant2_desc</Cell>
+		<Cell>Your health regenerates faster. (0.25 health/s)&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Revenant I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant2_name</Cell>
+		<Cell>Revenant II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant3_desc</Cell>
+		<Cell>Your health regenerates much faster. (0.5 health/s)&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Revenant II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_revenant3_name</Cell>
+		<Cell>Revenant III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_riders_off_the_storm_desc</Cell>
+		<Cell>Your horse is extremely skittish in storms but shies less in other weather.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_riders_off_the_storm_name</Cell>
+		<Cell>Rider on the Storm</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ripo_text_axe</Cell>
+		<Cell>Master Strike: Axe</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ripo_text_desc</Cell>
+		<Cell>A masterful combat technique that combines defence and attack in one move. You execute it by pressing the block button at the start of your opponent's strike, which you will recognise by the appearance of a green shield in the middle of the combat rose, the same as in the case of a Perfect Block. But to execute the Master Strike instead of a Perfect Block, you must react quickly and press Block right at the very start of the window of opportunity for the Perfect Block.:&amp;lt;br/&amp;gt; :&amp;lt;br/&amp;gt;How long that window is open depends on the difference in level between your Weapon skill and your opponent's. If the opponent is more experienced, executing the Master Strike is almost impossible. If the opponent is weaker, the window for executing the Master Strike is practically the same as for the Perfect Block.:&amp;lt;br/&amp;gt; :&amp;lt;br/&amp;gt;The Master Strike is a very powerful technique against which there is no defence.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ripo_text_mace</Cell>
+		<Cell>Master Strike: Mace</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ripo_text_sword</Cell>
+		<Cell>Master Strike: Sword</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_riposte_name</Cell>
+		<Cell>Riposte</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rogue_desc</Cell>
+		<Cell>You gain +3 Charisma while talking to commoners.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Lowborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Thug</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rogue_name</Cell>
+		<Cell>Rogue</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_routine_1_desc</Cell>
+		<Cell>You can now auto-brew potions you've brewed once before, but you can only brew one.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_routine_1_name</Cell>
+		<Cell>Routine I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_routine_2_desc</Cell>
+		<Cell>Auto-brewing produces three potions for the price of one.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Routine I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_routine_2_name</Cell>
+		<Cell>Routine II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ruffian_desc</Cell>
+		<Cell>You're more threatening when interacting with commoners.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Lowborn&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Local Hero&lt;br/&gt;- Rogue</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_ruffian_name</Cell>
+		<Cell>Thug</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rusty_edge_desc</Cell>
+		<Cell>The more damaged your sword, the greater your chance of poisoning your opponent when you hit him, even without poison applied to your weapon. If you do have poison on a damaged weapon, the chances of administering it are increased by half.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_rusty_edge_name</Cell>
+		<Cell>Rusty Edge</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sadist_desc</Cell>
+		<Cell>When you draw blood, your mood improves and you receive +1 Strength.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sadist_name</Cell>
+		<Cell>Sadist</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_safe_passage_desc</Cell>
+		<Cell>When you drink yourself to oblivion, you'll awake at home and none of your items will be missing.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Bacchus</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_safe_passage_name</Cell>
+		<Cell>Safe Passage</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_salt_and_smoke_desc</Cell>
+		<Cell>Cured or cooked food in your inventory spoils 20% more slowly.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_salt_and_smoke_name</Cell>
+		<Cell>Salted and Smoked</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_salty_desc</Cell>
+		<Cell>Raw foods in your inventory won't spoil so fast.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_salty_name</Cell>
+		<Cell>Salty</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_savage_desc</Cell>
+		<Cell>In the wilds, you deal 10% more damage and move 20% faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Burgher</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_savage_name</Cell>
+		<Cell>Savage</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_1_desc</Cell>
+		<Cell>You gain a 10% greater chance to evade when you encounter random events and you can see Fast Travel destinations slightly farther away than normal.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_1_name</Cell>
+		<Cell>Scout I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_2_desc</Cell>
+		<Cell>You gain a 20% greater chance to evade when you encounter random events and you can see Fast Travel destinations even farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_2_name</Cell>
+		<Cell>Scout II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_3_desc</Cell>
+		<Cell>You gain a 30% greater chance to evade when you encounter random events and you can see Fast Travel destinations significantly farther away than normal.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Scout II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_scout_3_name</Cell>
+		<Cell>Scout III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets_desc</Cell>
+		<Cell>When looting the dead, you gain a chance of finding more groschen.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets_name</Cell>
+		<Cell>Secret Pockets I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets2_desc</Cell>
+		<Cell>When looting the dead, you gain a greater chance of finding more groschen.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Secret Pockets I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets2_name</Cell>
+		<Cell>Secret Pockets II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets3_desc</Cell>
+		<Cell>When looting the dead, you gain an excellent chance of finding more groschen.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Secret Pockets II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_secret_pockets3_name</Cell>
+		<Cell>Secret Pockets III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_serration_desc</Cell>
+		<Cell>Weapons you've sharpened yourself have a 15% greater chance of causing bleeding.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_serration_name</Cell>
+		<Cell>Serrated Edge</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sevenleague_desc</Cell>
+		<Cell>When you're wearing boots you've repaired yourself, sprinting costs 20% less Stamina.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sevenleague_name</Cell>
+		<Cell>Seven Mile Boots</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_silent_fiddler_desc</Cell>
+		<Cell>You work almost silently with a lockpick, even when the job's not going well. Breaking lockpicks is 90% quieter.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_silent_fiddler_name</Cell>
+		<Cell>Silent Fiddler</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sixth_sense_desc</Cell>
+		<Cell>Your sixth sense warns you when someone is about to catch you picking a lock, allowing you more time to escape.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sixth_sense_name</Cell>
+		<Cell>Sixth Sense</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit_name</Cell>
+		<Cell>Slim Fit I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit2_desc</Cell>
+		<Cell>Lowers the noise of armour and other equipment by 30%.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Slim Fit I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit2_name</Cell>
+		<Cell>Slim Fit II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit3_desc</Cell>
+		<Cell>Lowers the noise of armour and other equipment by 40%.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Slim Fit II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit3_name</Cell>
+		<Cell>Slim Fit III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_slim_fit_desc</Cell>
+		<Cell>Lowers the noise of armour and other equipment by 20%.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_snake_oil_salesman_desc</Cell>
+		<Cell>Potions you brew yourself sell for 20% more.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_snake_oil_salesman_name</Cell>
+		<Cell>Snake Oil Salesman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_speech_desc</Cell>
+		<Cell>You've always favoured diplomacy over brute force. You gain +2 Charisma, but deal 10% less damage.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_speech_name</Cell>
+		<Cell>Golden Tongue</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter_desc</Cell>
+		<Cell>You can sprint 20% faster at a cost of 20% more Stamina.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter_name</Cell>
+		<Cell>Sprinter I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter2_desc</Cell>
+		<Cell>You can sprint 50% faster at a cost of 30% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Sprinter I&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter2_name</Cell>
+		<Cell>Sprinter II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter3_desc</Cell>
+		<Cell>You can sprint twice as fast at a cost of 40% more Stamina.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Sprinter II&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Marathon Man</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_sprinter3_name</Cell>
+		<Cell>Sprinter III</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_steady_hand</Cell>
+		<Cell>Steady Hand</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_steak_tartare_desc</Cell>
+		<Cell>You can eat raw meat.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_steak_tartare_name</Cell>
+		<Cell>Steak Tartare</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_desc</Cell>
+		<Cell>You're 10% quieter when walking and running, but all that time spent in the shadows cost you -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Brute&lt;br/&gt;- Juggler&lt;br/&gt;- Golden Tongue</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_kill_desc</Cell>
+		<Cell>Allows you to kill from stealth.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_kill_name</Cell>
+		<Cell>Stealth Kill</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_name</Cell>
+		<Cell>Cloak and Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_takedown_desc</Cell>
+		<Cell>You can knock out people while crouched.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stealth_takedown_name</Cell>
+		<Cell>Takedown</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_strength_desc</Cell>
+		<Cell>You favour brute strength over a pleasant demeanour. Your attacks deal 10% more damage, but you lose -2 Charisma.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Ken&lt;br/&gt;- Golden Tongue&lt;br/&gt;- Juggler&lt;br/&gt;- Cloak and Dagger</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_strength_name</Cell>
+		<Cell>Brute</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_strong_thighs_desc</Cell>
+		<Cell>You've a greater chance to avoid being unhorsed.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_strong_thighs_name</Cell>
+		<Cell>Strong Thighs</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stronghold_desc</Cell>
+		<Cell>Blocking an opponent's attacks costs 30% less Stamina.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_stronghold_name</Cell>
+		<Cell>Stronghold</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_supremely_attentive_desc</Cell>
+		<Cell>It doesn't matter to you where you read. You gain a learning bonus everywhere.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_supremely_attentive_name</Cell>
+		<Cell>Swot</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tactician_desc</Cell>
+		<Cell>A keen student of warfare, your attacks deal 10% more damage against soldiers.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tactician_name</Cell>
+		<Cell>Tactician</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tanner_desc</Cell>
+		<Cell>You're able to skin dead animals.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tanner_name</Cell>
+		<Cell>Tanner</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_taunt_desc</Cell>
+		<Cell>A successful evasion during combat lowers your opponent's morale.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_taunt_name</Cell>
+		<Cell>Taunt</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_thickblooded_desc</Cell>
+		<Cell>You bleed two times slower.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_thickblooded_name</Cell>
+		<Cell>Thickblooded I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_thickblooded2_desc</Cell>
+		<Cell>You bleed three times slower.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Thickblooded I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_thickblooded2_name</Cell>
+		<Cell>Thickblooded II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tight_grip_desc</Cell>
+		<Cell>Your Stamina regeneration does not slow down in combat, even on the weapon backswing.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tight_grip_name</Cell>
+		<Cell>Tight Grip</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_trial_and_error_desc</Cell>
+		<Cell>While brewing, you can make one extra mistake without affecting the result.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_trial_and_error_name</Cell>
+		<Cell>Trial and Error</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_troubadour_desc</Cell>
+		<Cell>You have a 50% higher reputation and +1 Speech when talking to women, and you can avail of bathwenches freely.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_troubadour_name</Cell>
+		<Cell>Troubadour</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_true_slav_desc</Cell>
+		<Cell>You get drunk on 50% less alcohol, saving your hard-earned groschen, and your hangover the next day lasts only half as long. But bear in mind that getting drunk quickly brings both the positive and negative effects of alcohol.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_true_slav_name</Cell>
+		<Cell>True Slav</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_trustworthym_desc</Cell>
+		<Cell>Merchants are more willing to buy stolen items from you.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_trustworthym_name</Cell>
+		<Cell>Trustworthy Middleman</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tusks_desc</Cell>
+		<Cell>You're able to remove tusks from some animals.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_tusks_name</Cell>
+		<Cell>Tusks</Cell>
+		<Cell>Tusks</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_venomous_blade_desc</Cell>
+		<Cell>Poison applied to weapons last 30% longer.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_venomous_blade_name</Cell>
+		<Cell>Venomous Blade I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_venomous_blade2_desc</Cell>
+		<Cell>Poison applied to weapons last 50% longer.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Venomous Blade I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_venomous_blade2_name</Cell>
+		<Cell>Venomous Blade II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo01_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60" &amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;The short edge strikes the face. After drawing back down you let the sword slip behind you and through the 'coda lunga e stretta' position strike unexpectedly with the other edge of the blade.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo01_name</Cell>
+		<Cell>False Edge</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo02_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm:&amp;lt;/font&amp;gt; stab – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Pommel strike. Following a feint from the right, you run through the opponent's defence and strike him with the pommel of the sword. The technique is often used when passing into a clinch.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo02_name</Cell>
+		<Cell>Durchlauffen: Run through</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo03_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;With a rapid Zornhau from the Ox stance, parry the opponent's strike to the side from your left shoulder and thrust the point straight to his chest.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo03_name</Cell>
+		<Cell>Zorn ort: Wrath Strike</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo04_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;After several strikes from unexpected sides, evade the opponent's blade by turning the short edge and striking with a slash to the unguarded face. If executed correctly, a very powerful technique.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo04_name</Cell>
+		<Cell>Duplieren: Doubling</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo05_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;By means of rapid attacks, put the opponent on the defensive, then feint a stab, but instead of carrying it through, execute a Mittlehau around the opponent's blade straight to the face.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo05_name</Cell>
+		<Cell>Fehler: Scarmaker</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo06_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Longsword&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;The 'third wonder' of swordfighting is a slash that will not defeat your opponent, but will make it difficult for him to continue. After a few misleading strikes, suddenly slash at the wrist.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_ls_combo06_name</Cell>
+		<Cell>Drei Wunder: Wrist</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb1</Cell>
+		<Cell>Breath Taker</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb1_desc</Cell>
+		<Cell>Hit the chest.&amp;lt;br/&amp;gt;Rhythm: slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="80" height="70"&amp;gt; &amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="80" height="70"&amp;gt;</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb2</Cell>
+		<Cell>Arm Breaker</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb2_desc</Cell>
+		<Cell>Hit the wielding arm.&amp;lt;br/&amp;gt;Rhythm: slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="80" height="70"&amp;gt; &amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="80" height="70"&amp;gt;</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb3</Cell>
+		<Cell>Shield Slam</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb3_desc</Cell>
+		<Cell>Strike the enemy with your shield.&amp;lt;br/&amp;gt;Rhythm: stab – slash – slash&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="80" height="70"&amp;gt; &amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="80" height="70"&amp;gt;</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb4</Cell>
+		<Cell>Imbalance</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb4_desc</Cell>
+		<Cell>Kick the enemy off balance.&amp;lt;br/&amp;gt;Rhythm: slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="80" height="70"&amp;gt; &amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="80" height="70"&amp;gt;</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb5</Cell>
+		<Cell>Head Strike</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_shield_comb5_desc</Cell>
+		<Cell>Strike the enemy with the short edge of the blade.&amp;lt;br/&amp;gt;Rhythm: slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="80" height="70"&amp;gt; &amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="80" height="70"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="80" height="70"&amp;gt;</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb1</Cell>
+		<Cell>Halbschwert: Half Sword</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb1_b</Cell>
+		<Cell>Double stab</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb1_b_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Shortsword, Hunting Sword, Sabre&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;After a flurry of quick thrusts twist the point forward, guide the opponent’s weapon sideways with twin quick stabs and strike the exposed chest.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb1_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Shortsword, Hunting Sword, Sabre&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;After deflecting a deceptive thrust, don't pull back, but instead lunge forward, grasp the middle of your blade with your free hand and will the full force of both arms, drive the point into the opponent's chest.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb2</Cell>
+		<Cell>Drei Wunder: Forearm</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb2_axe_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Axe&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;The 'third wonder' of swordfighting is the 'Schnitt' or cut, which doesn't defeat the opponent, but makes it difficult for him to continue fighting. After several feints, slash unexpectedly at the opponent's forearm.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb2_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Mace&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor0.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;The 'third wonder' of swordfighting is the 'Schnitt' or cut, which doesn't defeat the opponent, but makes it difficult for him to continue fighting. After several feints, slash unexpectedly at the opponent's forearm.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb2_mace_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Mace&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – stab – stab&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;The 'third wonder' of swordfighting is a slash that will not defeat your opponent, but will make it difficult for him to continue. After a few misleading strikes, suddenly slash at the wrist.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb3</Cell>
+		<Cell>Blunt strike</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb3_axe_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Axe&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;stab – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Instead of a started strike from the right, strike unexpectedly at the opponent's face. Turn your weapon around his and strike him quickly with the blunt end. If you have a shield, use its edge for striking.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb3_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Shortsword, Hunting Sword, Sabre&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;stab – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Instead of a started strike from the right, strike unexpectedly at the opponent's face. Turn your weapon around his and strike him quickly with the blunt end. If you have a shield, use its edge for striking.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb3_mace_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Mace&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor5.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor4.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;stab – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Instead of a started strike from the right, strike unexpectedly at the opponent's face. Turn your weapon around his and strike him quickly with the blunt end. If you have a shield, use its edge for striking.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb4</Cell>
+		<Cell>Fehler: Blinding strike</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb4_axe_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Axe&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Attack repeatedly from various sides to confuse the opponent. If you have a shield, cover your final strike behind it. If not, get past the opponent's cover with a quick strike.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb4_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Shortsword, Hunting Sword, Sabre&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Attack repeatedly from various sides to confuse the opponent. If you have a shield, cover your final strike behind it. If not, get past the opponent's cover with a quick strike.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_w_short_comb4_mace_desc</Cell>
+		<Cell>&amp;lt;font color='#512D00'&amp;gt;Weapon: &amp;lt;/font&amp;gt;Mace&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor1.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor3.dds" width="70" height="60"&amp;gt;&amp;lt;img src="img://Libs/UI/Textures/Dynamic/ccursor2.dds" width="70" height="60"&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#512D00'&amp;gt;Rhythm: &amp;lt;/font&amp;gt;slash – slash – slash – slash&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Attack repeatedly from various sides to confuse the opponent. If you have a shield, cover your final strike behind it. If not, get past the opponent's cover with a quick strike.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_wanderer_desc</Cell>
+		<Cell>You grew up in impoverished conditions, so comfort of beds is inverted for you. The worse the bed, the better you sleep, and vice versa.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_wanderer_name</Cell>
+		<Cell>Wanderer</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_warhorse_desc</Cell>
+		<Cell>Your horse won't shy at nearby foes, as long as no one hits him.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_warhorse_name</Cell>
+		<Cell>Warhorse</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_water_of_life_desc</Cell>
+		<Cell>Healing potions are 50% stronger and 50% more intoxicating.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_water_of_life_name</Cell>
+		<Cell>Water of Life</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_weapon_cruncher_desc</Cell>
+		<Cell>When you beat your opponent in a clinch, you deal 15% more damage to his weapon.&lt;br/&gt;&lt;br/&gt;Damaged weapons are less effective and less valuable.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_weapon_cruncher_name</Cell>
+		<Cell>Weapon Cruncher</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_well_maintained_desc</Cell>
+		<Cell>Your attire suffers 15% less wear and tear.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_well_maintained_name</Cell>
+		<Cell>Well Groomed</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_well_worn_desc</Cell>
+		<Cell>You cleverly distribute the weight of your armour, reducing its weight by a third.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_well_worn_name</Cell>
+		<Cell>Well Worn</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_winebibber_desc</Cell>
+		<Cell>Wine is 50% weaker for you, so you can drink more, but beer is twice as strong and will make you drunk faster.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Beer Bibber</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_winebibber_name</Cell>
+		<Cell>Wine Bibber</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_witcher_desc</Cell>
+		<Cell>Potions fill you up 30% less, which means you can drink more of them and more often.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_witcher_name</Cell>
+		<Cell>Witcher I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_witcher2_desc</Cell>
+		<Cell>Your witcher senses have evolved. When night falls, you see better in dark places.&lt;br/&gt;&lt;br/&gt;Requires:&lt;br/&gt;- Witcher I</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_witcher2_name</Cell>
+		<Cell>Witcher II</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_your_friendly_neighbour_de</Cell>
+		<Cell>If anyone who likes you at least a little catches you pickpocketing, they won't call for the catchpole. Your reputation will still fall though.</Cell>
+	</Row>
+	<Row>
+		<Cell>perk_your_friendly_neighbour_na</Cell>
+		<Cell>Friendly Neighbour</Cell>
+	</Row>
+	<Row>
+		<Cell>racing_horse_desc</Cell>
+		<Cell>Your horse is 15% faster but carries 20% less weight.&lt;br/&gt;&lt;br/&gt;Incompatible:&lt;br/&gt;- Heavy Duty Pony</Cell>
+	</Row>
+	<Row>
+		<Cell>racing_horse_name</Cell>
+		<Cell>Racehorse</Cell>
+	</Row>
+</Table>
